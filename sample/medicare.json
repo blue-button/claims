@@ -40,7 +40,7 @@
                "name":"Pressure ulcer, unspecified site (Pressure ulcer, site NOS)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":70700
+               "code":"70700"
             }
          ]
       },
@@ -67,13 +67,13 @@
                "name":"Anemia in chronic kidney disease (Anemia in chr kidney dis)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":28521
+               "code":"28521"
             },
             {
                "name":"Chronic kidney disease, Stage IV (severe) (Chr kidney dis stage IV)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":5854
+               "code":"5854"
             }
          ]
       },
@@ -100,13 +100,13 @@
                "name":"Elbow, forearm, and wrist injury (Elb/forearm/wrst inj NOS)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":9593
+               "code":"9593"
             },
             {
                "name":"Unspecified fall (Fall NOS)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":E8889
+               "code":"E8889"
             }
          ]
       },
@@ -133,25 +133,25 @@
                "name":"Nonallopathic lesions, thoracic region (Somat dysfunc thorac reg)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":7392
+               "code":"7392"
             },
             {
                "name":"Pain in thoracic spine",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":7241
+               "code":"7241"
             },
             {
                "name":"Nonallopathic lesions, lumbar region (Somat dysfunc lumbar reg)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":7393
+               "code":"7393"
             },
             {
                "name":"Nonallopathic lesions, cervical region (Somat dysfunc cervic reg)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":7391
+               "code":"7391"
             }
          ]
       },
@@ -178,43 +178,43 @@
                "name":"Calculus of kidney",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":5920
+               "code":"5920"
             },
             {
                "name":"Aftercare for healing traumatic fracture of hip (Aftrcre traumatic fx hip)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":V5413
+               "code":"V5413"
             },
             {
                "name":"Alzheimer's disease",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":3310
+               "code":"3310"
             },
             {
                "name":"Care involving other physical therapy (Physical therapy NEC)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":V571
+               "code":"V571"
             },
             {
                "name":"Encounter for occupational therapy (Encntr occupatnal thrpy)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":V5721
+               "code":"V5721"
             },
             {
                "name":"Ulcerative colitis, unspecified (Ulceratve colitis unspcf)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":5569
+               "code":"5569"
             },
             {
                "name":"Unspecified glaucoma (Glaucoma NOS)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":3659
+               "code":"3659"
             }
          ]
       },
@@ -241,25 +241,25 @@
                "name":"Aftercare following surgery for neoplasm (Aftercare neoplasm surg)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":V5842
+               "code":"V5842"
             },
             {
                "name":"Malignant neoplasm of colon, unspecified site (Malignant neo colon NOS)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":1539
+               "code":"1539"
             },
             {
                "name":"Congestive heart failure, unspecified (CHF NOS)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":4280
+               "code":"4280"
             },
             {
                "name":"Coronary atherosclerosis of unspecified type of vessel, native or graft (Cor ath unsp vsl ntv/gft)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":41400
+               "code":"41400"
             }
          ]
       },
@@ -286,7 +286,7 @@
                "name":"Benign neoplasm of skin of other and unspecified parts of face (Benign neo skin face NEC)",
                "codeSystemName":"ICD-9",
                "codeSystem":"2.16.840.1.113883.6.104",
-               "code":2163
+               "code":"2163"
             }
          ]
       }
