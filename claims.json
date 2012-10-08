@@ -4,13 +4,13 @@
       "patientIdentifier":"W1234123456"
    },
    "insurance":{
-      "name":"Medicare",
+      "name":"Name of Insurance",
       "payerID":123456,
       "payerIDType":"National Payer ID",
-      "policyName":"Medicare FFS",
+      "policyName":"Name of Policy",
       "policyInformation":123456,
       "memberID":"W1234123456",
-      "memberName":"Ellen Lu",
+      "memberName":"Name of Plan Member",
       "planName":"Name of Plan"
    },
    "claims":[
