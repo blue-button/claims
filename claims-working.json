@@ -5,15 +5,15 @@
       "middle_name": "Harrison",
       "last_name": "Lu",
    },
-   "insurance":{
+   "payer":{
       "name":"Name of Insurance",
       "payer_id":123456,
       "payer_id_type":"National Payer ID",
-      "policy_name":"Name of Policy",
-      "policy_information":123456,
+      "plan_name":"Name of Policy",
+      "plan_id":123456,
       "member_id":"W1234123456",
       "member_name":"Name of Plan Member",
-      "plan_name":"Name of Plan"
+      "url":"http://yourinsurer.org"
    },
    "claims":[
       {
