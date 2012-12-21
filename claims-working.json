@@ -3,7 +3,7 @@
       "name": "Ellen Harrison Lu",
       "first_name":"Ellen",
       "middle_name": "Harrison",
-      "last_name": "Lu",
+      "last_name": "Lu"
    },
    "payer":{
       "name":"Name of Insurance",
@@ -31,7 +31,7 @@
          },
          "charges":{
             "price_billed":1022.50,
-            "negotiated_price":782.33,
+            "procedure_price":782.33,
             "insurance_paid":625.86,
             "patient_responsibility":156.47
          },
@@ -68,7 +68,7 @@
                ],
                "quantity":1,
                "price_billed":275.00,
-               "negotiated_price":208.99,
+               "procedure_price":208.99,
                "patient_responsibility":66.01,
                "place_of_service_code":41,
                "place_of_service:":"Ambulance - Land",
@@ -89,7 +89,7 @@
                ],
                "quantity":1,
                "price_billed":275.00,
-               "negotiated_price":208.99,
+               "procedure_price":208.99,
                "patient_responsibility":66.01,
                "place_of_service_code":41,
                "place_of_service:":"Ambulance - Land",
@@ -110,7 +110,7 @@
                ],
                "quantity":44,
                "price_billed":472.50,
-               "negotiated_price":364.35,
+               "procedure_price":364.35,
                "patient_responsibility":108.15,
                "place_of_service_code":41,
                "place_of_service:":"Ambulance - Land",
