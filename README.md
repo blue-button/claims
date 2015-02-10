@@ -7,6 +7,6 @@ Took Sample BlueButton Test file from MyMedicare.gov and created a medicare.xml 
 This will combine with claims.xml to present the complete BlueButton Plus file.
 
 ToDo:
-1. Combine medicare.xml and claims.xml
-2. Create medicare.json from the combined medicare.xml and claims.xml.
+
+1. Create medicare.json from the combined medicare.xml and claims.xml.
 
