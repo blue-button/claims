@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="medicare.xsl"?>
+<!--
+	Title: Medicare_Template
+	Original Filename: medicare.xml
+	Version: 1.0
+	Revision History:
+	02/09/2015 MAS created
+    02/10/2015 MAS modified
+-->
+<title>MyMedicare.gov Personal Health Information</title>
+<realmCode>code="US"</realmCode>
+<languageCode code="en-US"/>
+<versionNumber value="3"/>
+<effectiveTime value="20150210171504+0500"/>
+<confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+<blue_button_data>
+	<patient>
+		<name>Ellen Harrison Lu</name>
+		<first_name>Ellen</first_name>
+		<middle_name>Harrison</middle_name>
+		<last_name>Lu</last_name>
+        <birthday>19100101</birthday>
+        <address>
+            <line_1>8115 Knuee Road</line1>
+            <line_2>Mailpoint INA1-AF-16</line_2>
+            <city>Indianapolis</city>
+            <state>IN</state>
+            <zip>46250</zip>
+        </address>
+        <patient_identifier>W1234123456</patient_identifier>
+        <phone>
+            <home>215-555-0684</home>
+        </phone>
+        <email_address>test_user_fh@gmail.com</email_address>
+        <medicare>
+            <part_a_effective_date>19850103</part_a_effective_date>
+            <part_b_effective_date>19850104</part_b_effective_date>
+        </medicare>
+        <source>medicare.gov</source>
+	</patient>
+    <emergency_contact>
+        <contact>
+            <name>Billy B Bigelow</name>
+            <first_name>Billy</first_name>
+            <middle_name>B</middle_name>
+            <last_name>Bigelow</last_name>
+            <address>
+                <type>Home</type>
+                <line_1>1234 Carnival Lane</line_1>
+                <line_2>Apt B</line_2>
+                <city>Lobster Bay</city>
+                <state>ME</state>
+                <zip>11112</zip>
+            </address>
+            <relationship>Friend</relationship>
+            <phone>
+                <home>123-456-7890</home>
+                <work>123-456-7891</work>
+                <mobile>123-456-7892</mobile>
+            </phone>
+            <email>billy.bigelow@example.com</email>
+            <source>patient</source>
+        </contact>
+       <contact>
+            <name>Enoch C Snow</name>
+            <first_name>Enoch</first_name>
+            <middle_name>C</middle_name>
+            <last_name>Snow</last_name>
+            <address>
+                <type>Home</type>
+                <line_1>2345 Fish Head Cove</line_1>
+                <line_2>C</line_2>
+                <city>Lobster Bay</city>
+                <state>ME</state>
+                <zip>11112</zip>
+            </address>
+            <relationship>Friend</relationship>
+            <phone>
+                <home>123-456-7890</home>
+                <work>123-456-7891</work>
+                <mobile>123-456-7892</mobile>
+            </phone>
+            <email>esnoww@example.com</email>
+            <source>patient</source>
+        </contact>
+    </emergency_contact>
+    <medical_conditions>
+        <condition>
+            <name>Allergies</name>
+            <start>20130129</start>
+            <end></end>
+            <source>patient</source>
+        </condition>
+        <condition>
+            <name>Arthritis</name>
+            <start>19600108</start>
+            <end>19801231</end>
+            <source>patient</source>
+        </condition>
+        <condition>
+            <name>Broken Wrist</name>
+            <start>19100602</start>
+            <end>19101202</end>
+            <source>patient</source>
+        </condition>
+        <condition>
+            <name>Other</name>
+            <start>20110102</start>
+            <end></end>
+            <source>patient</source>
+        </condition>
+        <condition>
+            <name>Other</name>
+            <start>20120228</start>
+            <end></end>
+            <source>patient</source>
+        </condition>
+    </medical_conditions>
+    <allergies>
+        <allergy>
+            <name>Antibiotic</name>
+            <type>drugs</type>
+            <reaction></reaction>
+            <severity></severity>
+            <diagnosed></diagnosed>
+            <treatment></treatment>
+            <first_episode_date></first_episode_date>
+            <last_episode_date></last_episode_date>
+            <last_treatment_date></last_treatment_date>
+            <comments></comments>
+            <source>patient</source>
+        </allergy>
+        <allergy>
+            <name>Corn</name>
+            <type>Food</type>
+            <reaction>Blisters</reaction>
+            <severity>Mild</severity>
+            <diagnosed>Yes</diagnosed>
+            <treatment>Other</treatment>
+            <first_episode_date></first_episode_date>
+            <last_episode_date></last_episode_date>
+            <last_treatment_date></last_treatment_date>
+            <comments></comments>
+            <source>patient</source>
+        </allergy>
+        <allergy>
+            <name>Milk</name>
+            <type>Food</type>
+            <reaction>Anaphylaxis</reaction>
+            <severity>Severe</severity>
+            <diagnosed>Yes</diagnosed>
+            <treatment>Epinephrine (Epi-Pen)</treatment>
+            <first_episode_date>19850321</first_episode_date>
+            <last_episode_date>20120331</last_episode_date>
+            <last_treatment_date>20120331</last_treatment_date>
+            <comments></comments>
+            <source>patient</source>
+        </allergy>
+        <allergy>
+            <name>Other - other</name>
+            <type>Other - other</type>
+            <reaction></reaction>
+            <severity></severity>
+            <diagnosed></diagnosed>
+            <treatment></treatment>
+            <first_episode_date></first_episode_date>
+            <last_episode_date></last_episode_date>
+            <last_treatment_date></last_treatment_date>
+            <comments></comments>
+            <source>patient</source>
+        </allergy>
+    </allergies>
+    <implantable_devices>
+        <device>
+            <name>Coronary Stent</name>
+            <implanted_date>20051127</implanted_date>
+            <source>patient</source>
+        </device>
+        <device>
+            <name>Knee replacement</name>
+            <implanted_date>20140202</implanted_date>
+            <source>patient</source>
+        </device>
+        <device>
+            <name>Pace maker</name>
+            <implanted_date>20120228</implanted_date>
+            <source>patient</source>
+        </device>
+        <device>
+            <name>Foot</name>
+            <implanted_date>19840909</implanted_date>
+            <source>patient</source>
+        </device>
+        <device>
+            <name>Hearing aid</name>
+            <implanted_date>20130101</implanted_date>
+            <source>patient</source>
+        </device>
+        <device>
+            <name>Nov20</name>
+            <implanted_date>20071215</implanted_date>
+            <source>patient</source>
+        </device>
+    </implantable_devices>
+    <immunizations>
+        <immunization>
+            <name>Shingles</name>
+            <administered_date>20100302</administered_date>
+            <method>Injection</method>
+            <vaccination_in_usa>Yes</vaccination_in_usa>
+            <Comments></Comments>
+            <boosters>
+                <booster>
+                    <date>20110402</date>
+                </booster>
+                <booster>
+                    <date>20120604</date>
+                </booster>
+                <booster>
+                    <date></date>
+                </booster>
+            </boosters>
+            <source>patient</source>
+        </immunization>
+    </immunizations>
+    <labs>
+        <lab_test>
+            <type>Test</type>
+            <date>20130102</date>
+            <administered_by>Inova</administered_by>
+            <requesting_doctor>Dr. John Doe</requesting_doctor>
+            <reason_requested></reason_requested>
+            <results></results>
+            <comments></comments>
+            <source>patient</source>
+        </lab_test>
+    </labs>
+    <vitals>
+        <observation>
+            <type>Glucose</type>
+            <date>20080702</date>
+            <time>12:00 AM</time>
+            <reading_value>322</reading_value>
+            <comments></comments>
+            <source>patient</source>
+        </observation>
+        <observation>
+            <type>Glucose</type>
+            <date>20090403</date>
+            <time>12:02 PM</time>
+            <reading_value>24</reading_value>
+            <comments>a comment</comments>
+            <source>patient</source>
+        </observation>
+        <observation>
+            <type>Glucose</type>
+            <date>20090514</date>
+            <time>12:17 PM</time>
+            <reading_value>134</reading_value>
+            <comments>another comment</comments>
+            <source>patient</source>
+        </observation>
+        <observation>
+            <type>Otro - other</type>
+            <date>19390101</date>
+            <time>12:00 AM</time>
+            <reading_value>other</reading_value>
+            <comments></comments>
+            <source>patient</source>
+        </observation>
+        <observation>
+            <type>Pulse</type>
+            <date>20130613</date>
+            <time>12:00 AM</time>
+            <reading_value>333</reading_value>
+            <comments></comments>
+            <source>patient</source>
+        </observation>
+        <observation>
+            <type>Pulse</type>
+            <date>20110302</date>
+            <time>12:00 AM</time>
+            <reading_value>80</reading_value>
+            <comments>commenting</comments>
+            <source>patient</source>
+        </observation>
+        <observation>
+            <type>Temperature</type>
+            <date>20090605</date>
+            <time>8:06 AM</time>
+            <reading_value>100</reading_value>
+            <comments>commenting again</comments>
+            <source>patient</source>
+        </observation>
+        <observation>
+            <type>Temperature</type>
+            <date>20080404</date>
+            <time>9:02 AM</time>
+            <reading_value>99</reading_value>
+            <comments>comments</comments>
+            <source>patient</source>
+        </observation>
+    </vitals>
+    <family_history>
+        <family_member>
+            <relationship>Daughter</relationship>
+            <type>Maternal</type>
+            <date_of_birth>19940101</date_of_birth>
+            <date_of_death></date_of_death>
+            <age>31</age>
+            <condition>
+                <type>Allergy</type>
+                <description>Dyes</description>
+            </condition>
+            <condition>
+                <type>Condition</type>
+                <description>Diabetes, Type 2</description>
+            </condition>
+            <condition>
+                <type>Skin Cancer</type>
+                <description></description>
+            </condition>
+            <source>patient</source>
+        </family_member>
+        <family_member>
+            <relationship>Brother</relationship>
+            <type>Paternal</type>
+            <date_of_birth>20120404</date_of_birth>
+            <date_of_death></date_of_death>
+            <age></age>
+            <condition>
+                <type>Allergy</type>
+                <description>Chemotherapy</description>
+            </condition>
+            <condition>
+                <type>Condition</type>
+                <description>Alzheimer's Disease</description>
+            </condition>
+            <source>patient</source>
+        </family_member>
+    </family_history>
+
+</blue_button_data>

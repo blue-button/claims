@@ -5,17 +5,19 @@
 		<first_name>Ellen</first_name>
 		<middle_name>Harrison</middle_name>
 		<last_name>Lu</last_name>
+        <patient_identifier>W1234123456</patient_identifier>
 	</patient>
-	<payer>
+	<insurance>
 		<name>Name of Insurance</name>
 		<payer_id>123456</payer_id>
 		<payer_id_type>National Payer ID</payer_id_type>
-		<plan_name>Name of Policy</plan_name>
+		<policy_name>Name of Policy</policy_name>
 		<plan_id>123456</plan_id>
 		<member_id>W1234123456</member_id>
 		<member_name>Name of Plan Member</member_name>
+        <plan_name>Name of Plan</plan_name>
 		<url>http://yourinsurer.org</url>
-	</payer>
+	</insurance>
 	<claims>
 		<claim>0210336239290</claim>
 		<type>Part B</type>

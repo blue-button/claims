@@ -1,6 +1,9 @@
 {
    "patient":{
-      "name":"Ellen Lu",
+      "name":"Ellen Harrison Lu",
+      "first_name":"Ellen",
+      "middle_name":"Harrison",
+      "last_name":"Lu",
       "patient_identifier":"W1234123456"
    },
    "insurance":{
@@ -8,10 +11,11 @@
       "payer_id":123456,
       "payer_id_type":"National Payer ID",
       "policy_name":"Name of Policy",
-      "policy_information":123456,
+      "policy_id":123456,
       "member_id":"W1234123456",
       "member_name":"Name of Plan Member",
-      "plan_name":"Name of Plan"
+      "plan_name":"Name of Plan",
+      "url":"http://yourinsurer.org"
    },
    "claims":[
       {
@@ -29,7 +33,7 @@
          },
          "charges":{
             "price_billed":1022.50,
-            "negotiated_price":782.33,
+            "procedure_price":782.33,
             "insurance_paid":625.86,
             "patient_responsibility":156.47
          },
@@ -53,7 +57,7 @@
                "code":5854
             }
          ],
-         "lines":[
+         "details":[
             {
                "start_date":20101102,
                "end_date":20101102,
@@ -66,7 +70,7 @@
                ],
                "quantity":1,
                "price_billed":275.00,
-               "negotiated_price":208.99,
+               "procedure_price":208.99,
                "patient_responsibility":66.01,
                "place_of_service_code":41,
                "place_of_service:":"Ambulance - Land",
@@ -87,7 +91,7 @@
                ],
                "quantity":1,
                "price_billed":275.00,
-               "negotiated_price":208.99,
+               "procedure_price":208.99,
                "patient_responsibility":66.01,
                "place_of_service_code":41,
                "place_of_service:":"Ambulance - Land",
@@ -108,7 +112,7 @@
                ],
                "quantity":44,
                "price_billed":472.50,
-               "negotiated_price":364.35,
+               "procedure_price":364.35,
                "patient_responsibility":108.15,
                "place_of_service_code":41,
                "place_of_service:":"Ambulance - Land",
