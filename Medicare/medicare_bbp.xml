@@ -15,6 +15,7 @@
         <versionNumber value="3"/>
         <effectiveTime value="20150210171504+0500"/>
         <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+        <originator>MyMedicare.gov</originator>
     </header>
 	<patient>
 		<name>Ellen Harrison Lu</name>
