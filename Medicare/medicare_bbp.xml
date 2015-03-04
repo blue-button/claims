@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="medicare.xsl" ?>
 <!---
-	Title: Medicare_Template
+	Title: MedicareTemplate
 	Original Filename: medicare.xml
 	Version: 1.0
 	Revision History:
 	02/09/2015 MAS created
     02/10/2015 MAS modified
+    03/04/2015 MAS modified - apply headlessCamelCase
 -->
-<blue_button_data>
+<blueButtonData>
     <header>
         <title>MyMedicare.gov Personal Health Information</title>
         <languageCode>code="en-US"</languageCode>
@@ -19,38 +20,38 @@
     </header>
 	<patient>
 		<name>Ellen Harrison Lu</name>
-		<first_name>Ellen</first_name>
-		<middle_name>Harrison</middle_name>
-		<last_name>Lu</last_name>
+		<firstName>Ellen</firstName>
+		<middleName>Harrison</middleName>
+		<lastName>Lu</lastName>
         <birthday>19100101</birthday>
         <address>
-            <line_1>8115 Knuee Road</line_1>
-            <line_2>Mailpoint INA1-AF-16</line_2>
+            <line1>8115 Knuee Road</line1>
+            <line2>Mailpoint INA1-AF-16</line2>
             <city>Indianapolis</city>
             <state>IN</state>
             <zip>46250</zip>
         </address>
-        <patient_identifier>W1234123456</patient_identifier>
+        <patientIdentifier>W1234123456</patientIdentifier>
         <phone>
             <home>215-555-0684</home>
         </phone>
-        <email_address>test_user_fh@gmail.com</email_address>
+        <emailAddress>testUser_fh@gmail.com</emailAddress>
         <medicare>
-            <part_a_effective_date>19850103</part_a_effective_date>
-            <part_b_effective_date>19850104</part_b_effective_date>
+            <partAEffectiveDate>19850103</partAEffectiveDate>
+            <partBEffectiveDate>19850104</partBEffectiveDate>
         </medicare>
         <source>medicare.gov</source>
 	</patient>
-    <emergency_contact>
+    <emergencyContact>
         <contact>
             <name>Billy B Bigelow</name>
-            <first_name>Billy</first_name>
-            <middle_name>B</middle_name>
-            <last_name>Bigelow</last_name>
+            <firstName>Billy</firstName>
+            <middleName>B</middleName>
+            <lastName>Bigelow</lastName>
             <address>
                 <type>Home</type>
-                <line_1>1234 Carnival Lane</line_1>
-                <line_2>Apt B</line_2>
+                <line1>1234 Carnival Lane</line1>
+                <line2>Apt B</line2>
                 <city>Lobster Bay</city>
                 <state>ME</state>
                 <zip>11112</zip>
@@ -61,18 +62,18 @@
                 <work>123-456-7891</work>
                 <mobile>123-456-7892</mobile>
             </phone>
-            <email>billy.bigelow@example.com</email>
+            <emailAddress>billy.bigelow@example.com</emailAddress>
             <source>patient</source>
         </contact>
        <contact>
             <name>Enoch C Snow</name>
-            <first_name>Enoch</first_name>
-            <middle_name>C</middle_name>
-            <last_name>Snow</last_name>
+            <firstName>Enoch</firstName>
+            <middleName>C</middleName>
+            <lastName>Snow</lastName>
             <address>
                 <type>Home</type>
-                <line_1>2345 Fish Head Cove</line_1>
-                <line_2>C</line_2>
+                <line1>2345 Fish Head Cove</line1>
+                <line2>C</line2>
                 <city>Lobster Bay</city>
                 <state>ME</state>
                 <zip>11112</zip>
@@ -83,11 +84,11 @@
                 <work>123-456-7891</work>
                 <mobile>123-456-7892</mobile>
             </phone>
-            <email>esnoww@example.com</email>
+            <emailAddress>esnoww@example.com</emailAddress>
             <source>patient</source>
         </contact>
-    </emergency_contact>
-    <medical_conditions>
+    </emergencyContact>
+    <medicalConditions>
         <condition>
             <name>Allergies</name>
             <start>20130129</start>
@@ -118,7 +119,7 @@
             <end></end>
             <source>patient</source>
         </condition>
-    </medical_conditions>
+    </medicalConditions>
     <allergies>
         <allergy>
             <name>Antibiotic</name>
@@ -127,9 +128,9 @@
             <severity></severity>
             <diagnosed></diagnosed>
             <treatment></treatment>
-            <first_episode_date></first_episode_date>
-            <last_episode_date></last_episode_date>
-            <last_treatment_date></last_treatment_date>
+            <firstEpisodeDate></firstEpisodeDate>
+            <lastEpisodeDate></lastEpisodeDate>
+            <lastTreatmentDate></lastTreatmentDate>
             <comments></comments>
             <source>patient</source>
         </allergy>
@@ -140,9 +141,9 @@
             <severity>Mild</severity>
             <diagnosed>Yes</diagnosed>
             <treatment>Other</treatment>
-            <first_episode_date></first_episode_date>
-            <last_episode_date></last_episode_date>
-            <last_treatment_date></last_treatment_date>
+            <firstEpisodeDate></firstEpisodeDate>
+            <lastEpisodeDate></lastEpisodeDate>
+            <lastTreatmentDate></lastTreatmentDate>
             <comments></comments>
             <source>patient</source>
         </allergy>
@@ -153,9 +154,9 @@
             <severity>Severe</severity>
             <diagnosed>Yes</diagnosed>
             <treatment>Epinephrine (Epi-Pen)</treatment>
-            <first_episode_date>19850321</first_episode_date>
-            <last_episode_date>20120331</last_episode_date>
-            <last_treatment_date>20120331</last_treatment_date>
+            <firstEpisodeDate>19850321</firstEpisodeDate>
+            <lastEpisodeDate>20120331</lastEpisodeDate>
+            <lastTreatmentDate>20120331</lastTreatmentDate>
             <comments></comments>
             <source>patient</source>
         </allergy>
@@ -166,51 +167,51 @@
             <severity></severity>
             <diagnosed></diagnosed>
             <treatment></treatment>
-            <first_episode_date></first_episode_date>
-            <last_episode_date></last_episode_date>
-            <last_treatment_date></last_treatment_date>
+            <firstEpisodeDate></firstEpisodeDate>
+            <lastEpisodeDate></lastEpisodeDate>
+            <lastTreatmentDate></lastTreatmentDate>
             <comments></comments>
             <source>patient</source>
         </allergy>
     </allergies>
-    <implantable_devices>
+    <implantableDevices>
         <device>
             <name>Coronary Stent</name>
-            <implanted_date>20051127</implanted_date>
+            <implantedDate>20051127</implantedDate>
             <source>patient</source>
         </device>
         <device>
             <name>Knee replacement</name>
-            <implanted_date>20140202</implanted_date>
+            <implantedDate>20140202</implantedDate>
             <source>patient</source>
         </device>
         <device>
             <name>Pace maker</name>
-            <implanted_date>20120228</implanted_date>
+            <implantedDate>20120228</implantedDate>
             <source>patient</source>
         </device>
         <device>
             <name>Foot</name>
-            <implanted_date>19840909</implanted_date>
+            <implantedDate>19840909</implantedDate>
             <source>patient</source>
         </device>
         <device>
             <name>Hearing aid</name>
-            <implanted_date>20130101</implanted_date>
+            <implantedDate>20130101</implantedDate>
             <source>patient</source>
         </device>
         <device>
             <name>Nov20</name>
-            <implanted_date>20071215</implanted_date>
+            <implantedDate>20071215</implantedDate>
             <source>patient</source>
         </device>
-    </implantable_devices>
+    </implantableDevices>
     <immunizations>
         <immunization>
             <name>Shingles</name>
-            <administered_date>20100302</administered_date>
+            <administeredDate>20100302</administeredDate>
             <method>Injection</method>
-            <vaccination_in_usa>Yes</vaccination_in_usa>
+            <vaccinationInUsa>Yes</vaccinationInUsa>
             <Comments></Comments>
             <boosters>
                 <booster>
@@ -227,23 +228,23 @@
         </immunization>
     </immunizations>
     <labs>
-        <lab_test>
+        <labTest>
             <type>Test</type>
             <date>20130102</date>
-            <administered_by>Inova</administered_by>
-            <requesting_doctor>Dr. John Doe</requesting_doctor>
-            <reason_requested></reason_requested>
+            <administeredBy>Inova</administeredBy>
+            <requestingDoctor>Dr. John Doe</requestingDoctor>
+            <reasonRequested></reasonRequested>
             <results></results>
             <comments></comments>
             <source>patient</source>
-        </lab_test>
+        </labTest>
     </labs>
     <vitals>
         <observation>
             <type>Glucose</type>
             <date>20080702</date>
             <time>12:00 AM</time>
-            <reading_value>322</reading_value>
+            <readingValue>322</readingValue>
             <comments></comments>
             <source>patient</source>
         </observation>
@@ -251,7 +252,7 @@
             <type>Glucose</type>
             <date>20090403</date>
             <time>12:02 PM</time>
-            <reading_value>24</reading_value>
+            <readingValue>24</readingValue>
             <comments>a comment</comments>
             <source>patient</source>
         </observation>
@@ -259,7 +260,7 @@
             <type>Glucose</type>
             <date>20090514</date>
             <time>12:17 PM</time>
-            <reading_value>134</reading_value>
+            <readingValue>134</readingValue>
             <comments>another comment</comments>
             <source>patient</source>
         </observation>
@@ -267,7 +268,7 @@
             <type>Otro - other</type>
             <date>19390101</date>
             <time>12:00 AM</time>
-            <reading_value>other</reading_value>
+            <readingValue>other</readingValue>
             <comments></comments>
             <source>patient</source>
         </observation>
@@ -275,7 +276,7 @@
             <type>Pulse</type>
             <date>20130613</date>
             <time>12:00 AM</time>
-            <reading_value>333</reading_value>
+            <readingValue>333</readingValue>
             <comments></comments>
             <source>patient</source>
         </observation>
@@ -283,7 +284,7 @@
             <type>Pulse</type>
             <date>20110302</date>
             <time>12:00 AM</time>
-            <reading_value>80</reading_value>
+            <readingValue>80</readingValue>
             <comments>commenting</comments>
             <source>patient</source>
         </observation>
@@ -291,7 +292,7 @@
             <type>Temperature</type>
             <date>20090605</date>
             <time>8:06 AM</time>
-            <reading_value>100</reading_value>
+            <readingValue>100</readingValue>
             <comments>commenting again</comments>
             <source>patient</source>
         </observation>
@@ -299,17 +300,17 @@
             <type>Temperature</type>
             <date>20080404</date>
             <time>9:02 AM</time>
-            <reading_value>99</reading_value>
+            <readingValue>99</readingValue>
             <comments>comments</comments>
             <source>patient</source>
         </observation>
     </vitals>
     <family_history>
-        <family_member>
+        <familyMember>
             <relationship>Daughter</relationship>
             <type>Maternal</type>
-            <date_of_birth>19940101</date_of_birth>
-            <date_of_death></date_of_death>
+            <dateOfBirth>19940101</dateOfBirth>
+            <dateOfDeath></dateOfDeath>
             <age>31</age>
             <condition>
                 <type>Allergy</type>
@@ -324,12 +325,12 @@
                 <description></description>
             </condition>
             <source>patient</source>
-        </family_member>
-        <family_member>
+        </familyMember>
+        <familyMember>
             <relationship>Brother</relationship>
             <type>Paternal</type>
-            <date_of_birth>20120404</date_of_birth>
-            <date_of_death></date_of_death>
+            <dateOfBirth>20120404</dateOfBirth>
+            <dateOfDeath></dateOfDeath>
             <age></age>
             <condition>
                 <type>Allergy</type>
@@ -340,503 +341,503 @@
                 <description>Alzheimer's Disease</description>
             </condition>
             <source>patient</source>
-        </family_member>
+        </familyMember>
     </family_history>
     <medications>
         <drug>
             <name>Abacavir TAB 300MG</name>
             <supply>60 Every 1 Month</supply>
-            <original_drug>Abacavir</original_drug>
+            <originalDrug>Abacavir</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Abilify Maintena INJ 300MG</name>
             <supply>1 X Vial Every 1 Month</supply>
-            <original_drug>Abilify Maintena</original_drug>
+            <originalDrug>Abilify Maintena</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate TAB 10MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Amlodipine Besylate</original_drug>
+            <originalDrug>Amlodipine Besylate</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate TAB 2.5MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Amlodipine Besylate</original_drug>
+            <originalDrug>Amlodipine Besylate</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate TAB 5MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Amlodipine Besylate</original_drug>
+            <originalDrug>Amlodipine Besylate</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate/Atorvastatin Calcium TAB 10-10MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Amlodipine Besylate/Atorvastatin Calcium</original_drug>
+            <originalDrug>Amlodipine Besylate/Atorvastatin Calcium</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate/Atorvastatin Calcium TAB 10-20MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Amlodipine Besylate/Atorvastatin Calcium</original_drug>
+            <originalDrug>Amlodipine Besylate/Atorvastatin Calcium</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate/Atorvastatin Calcium TAB 10-40MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Amlodipine Besylate/Atorvastatin Calcium</original_drug>
+            <originalDrug>Amlodipine Besylate/Atorvastatin Calcium</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate/Atorvastatin Calcium TAB 10-80MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Amlodipine Besylate/Atorvastatin Calcium</original_drug>
+            <originalDrug>Amlodipine Besylate/Atorvastatin Calcium</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate/Atorvastatin Calcium TAB 5-10MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Caduet</original_drug>
+            <originalDrug>Caduet</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Amlodipine Besylate/Atorvastatin Calcium TAB 5-80MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Amlodipine Besylate/Atorvastatin Calcium</original_drug>
+            <originalDrug>Amlodipine Besylate/Atorvastatin Calcium</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Androgel Pump GEL 1.62%</name>
             <supply>2 X 75GM Pump Bottle (sold in a package of 1 pump bottle) Every 1 Month</supply>
-            <original_drug>Androgel Pump</original_drug>
+            <originalDrug>Androgel Pump</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Drospirenone/Ethinyl Estradiol TAB 3-0.03MG</name>
             <supply>28 Every 1 Month</supply>
-            <original_drug>Yasmin 28</original_drug>
+            <originalDrug>Yasmin 28</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Gabapentin CAP 100MG</name>
             <supply>90 Every 1 Month</supply>
-            <original_drug>Gabapentin</original_drug>
+            <originalDrug>Gabapentin</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Gabapentin SOL 250/5ML</name>
             <supply>1 X 470ML Bottle Every 1 Month</supply>
-            <original_drug>Gabapentin</original_drug>
+            <originalDrug>Gabapentin</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Jakafi TAB 10MG</name>
             <supply>60 Every 1 Month</supply>
-            <original_drug>Jakafi</original_drug>
+            <originalDrug>Jakafi</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Losartan Potassium/Hydrochlorothiazide TAB 100-25</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Losartan Potassium/Hydrochlorothiazide</original_drug>
+            <originalDrug>Losartan Potassium/Hydrochlorothiazide</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Montelukast Sodium TAB 10MG</name>
             <supply>90 Every 3 Month</supply>
-            <original_drug>Montelukast Sodium</original_drug>
+            <originalDrug>Montelukast Sodium</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Omeprazole CAP 20MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Omeprazole</original_drug>
+            <originalDrug>Omeprazole</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Rabavert INJ</name>
             <supply>2 X Vial (sold in a package of 2) Every 12 Month</supply>
-            <original_drug>Rabavert</original_drug>
+            <originalDrug>Rabavert</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Tabloid TAB 40MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Tabloid</original_drug>
+            <originalDrug>Tabloid</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Vagifem TAB 10MCG</name>
             <supply>8 Every 1 Month</supply>
-            <original_drug>Vagifem</original_drug>
+            <originalDrug>Vagifem</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Zafirlukast TAB 20MG</name>
             <supply>60 Every 1 Month</supply>
-            <original_drug>Zafirlukast</original_drug>
+            <originalDrug>Zafirlukast</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Zaleplon CAP 10MG</name>
             <supply>30 Every 1 Month</supply>
-            <original_drug>Zaleplon</original_drug>
+            <originalDrug>Zaleplon</originalDrug>
             <source>patient</source>
         </drug>
         <drug>
             <name>Zaltrap INJ 100/4ML</name>
             <supply>1 X 4ML Vial Every 1 Month</supply>
-            <original_drug>Zaltrap</original_drug>
+            <originalDrug>Zaltrap</originalDrug>
             <source>patient</source>
         </drug>
     </medications>
-    <preventive_services>
+    <preventiveServices>
         <service>
             <description>ABDOMINAL AORTIC ANEURYSM</description>
-            <next_eligible_date>20140201</next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate>20140201</nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>CARDIOVASCULAR</description>
-            <next_eligible_date>20140201</next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate>20140201</nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>PPV</description>
-            <next_eligible_date>20140201</next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate>20140201</nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>PROSTATE</description>
-            <next_eligible_date>20140201</next_eligible_date>
-            <last_date_of_service>20120326</last_date_of_service>
+            <nextEligibleDate>20140201</nextEligibleDate>
+            <lastDateOfService>20120326</lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>PSA</description>
-            <next_eligible_date>20140201</next_eligible_date>
-            <last_date_of_service>20120326</last_date_of_service>
+            <nextEligibleDate>20140201</nextEligibleDate>
+            <lastDateOfService>20120326</lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>ANNUAL WELLNESS VISIT</description>
-            <next_eligible_date>20150201</next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate>20150201</nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>ALCOHOL MISUSE SCREENING</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>CARDIOVASCULAR DISEASE (BEHAVIORAL THERAPY)</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>COLORECTAL</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service>20110421</last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService>20110421</lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>DEPRESSION SCREENING</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>DIABETES</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service>20120521</last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService>20120521</lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>HIGH INTENSITY BEHAVIORAL COUNSELING</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>OBESITY COUNSELING</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>PHYSICAL</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
         <service>
             <description>SMOKING CESSATION (counseling to stop smoking)</description>
-            <next_eligible_date></next_eligible_date>
-            <last_date_of_service></last_date_of_service>
+            <nextEligibleDate></nextEligibleDate>
+            <lastDateOfService></lastDateOfService>
             <source>MyMedicare.gov</source>
         </service>
-    </preventive_services>
+    </preventiveServices>
     <providers>
         <provider>
             <name>ANGELO SCOTTI</name>
             <address>
-                <line_1>180 WHITE RD</line_1>
-                <line_2></line_2>
+                <line1>180 WHITE RD</line1>
+                <line2></line2>
                 <city>LITTLE SILVER</city>
                 <state>NJ</state>
                 <zip>07739</zip>
             </address>
             <type>Physician and Other Healthcare Professional</type>
             <specialty></specialty>
-            <medicare_provider>Yes</medicare_provider>
+            <medicareProvider>Yes</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>DOUGLAS KNOX</name>
             <address>
-                <line_1>1104 E 23RD ST</line_1>
-                <line_2></line_2>
+                <line1>1104 E 23RD ST</line1>
+                <line2></line2>
                 <city>LAWRENCE</city>
                 <state>KS</state>
                 <zip>66046</zip>
             </address>
             <type>Physician and Other Healthcare Professional</type>
             <specialty></specialty>
-            <medicare_provider>Yes</medicare_provider>
+            <medicareProvider>Yes</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>SIAMAK RASSADI</name>
             <address>
-                <line_1>1331 N 7TH ST</line_1>
-                <line_2></line_2>
+                <line1>1331 N 7TH ST</line1>
+                <line2></line2>
                 <city>PHOENIX</city>
                 <state>AZ</state>
                 <zip>85006</zip>
             </address>
             <type>Physician and Other Healthcare Professional</type>
             <specialty>Cardiac Electrophysiology,Cardiovascular Disease (Cardiology)</specialty>
-            <medicare_provider>May Accept Medicare</medicare_provider>
+            <medicareProvider>May Accept Medicare</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>PETER LEAVITT</name>
             <address>
-                <line_1>2965 NECONNERS AVE</line_1>
-                <line_2></line_2>
+                <line1>2965 NECONNERS AVE</line1>
+                <line2></line2>
                 <city>BEND</city>
                 <state>OR</state>
                 <zip>97701</zip>
             </address>
             <type>Physician and Other Healthcare Professional</type>
             <specialty></specialty>
-            <medicare_provider>Yes</medicare_provider>
+            <medicareProvider>Yes</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>JOHN KENNEDY</name>
             <address>
-                <line_1>8888 KEYSTONE XING</line_1>
-                <line_2></line_2>
+                <line1>8888 KEYSTONE XING</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46240</zip>
             </address>
             <type>Physician and Other Healthcare Professional</type>
             <specialty></specialty>
-            <medicare_provider>Yes</medicare_provider>
+            <medicareProvider>Yes</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>REBECCA KELLY</name>
             <address>
-                <line_1>7250 CLEARVISTA DR</line_1>
-                <line_2></line_2>
+                <line1>7250 CLEARVISTA DR</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46256</zip>
             </address>
             <type>Physician and Other Healthcare Professional</type>
             <specialty>Addiction Medicine</specialty>
-            <medicare_provider>Yes</medicare_provider>
+            <medicareProvider>Yes</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>RILEY HOSPITAL - PEDS DIALYSIS</name>
             <address>
-                <line_1>705 RILEY HOSPITAL DRIVE</line_1>
-                <line_2></line_2>
+                <line1>705 RILEY HOSPITAL DRIVE</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46202</zip>
             </address>
             <type>Dialysis Facility</type>
             <specialty></specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>FMC - SHADELAND STATION</name>
             <address>
-                <line_1>7155 SHADELAND STATION</line_1>
-                <line_2>STE 130</line_2>
+                <line1>7155 SHADELAND STATION</line1>
+                <line2>STE 130</line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46256</zip>
             </address>
             <type>Dialysis Facility</type>
             <specialty>Dialysis Facility</specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>IU HEALTH - HOME DIALYSIS</name>
             <address>
-                <line_1>8803 N. MERIDIAN ST.</line_1>
-                <line_2>STE 150</line_2>
+                <line1>8803 N. MERIDIAN ST.</line1>
+                <line2>STE 150</line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46260</zip>
             </address>
             <type>Dialysis Facility</type>
             <specialty></specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>MESA VISTA OF BOULDER</name>
             <address>
-                <line_1>2121 MESA DRIVE</line_1>
-                <line_2></line_2>
+                <line1>2121 MESA DRIVE</line1>
+                <line2></line2>
                 <city>BOULDER</city>
                 <state>CO</state>
                 <zip>80304</zip>
             </address>
             <type>Nursing Home</type>
             <specialty></specialty>
-            <medicare_provider>Yes</medicare_provider>
+            <medicareProvider>Yes</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>FAIRBANKS</name>
             <address>
-                <line_1>8102 CLEARVISTA PARKWAY</line_1>
-                <line_2></line_2>
+                <line1>8102 CLEARVISTA PARKWAY</line1>
+                <line2></line2>
                 <city>INDIANAPOLis</city>
                 <state>IN</state>
                 <zip>46256</zip>
             </address>
             <type>Hospital</type>
             <specialty></specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>ALLIANCE HOME HEALTH SERVICES INC</name>
             <address>
-                <line_1>9615 N COLLEGE AVE</line_1>
-                <line_2></line_2>
+                <line1>9615 N COLLEGE AVE</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46280</zip>
             </address>
             <type>Home Health</type>
             <specialty></specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>THE VIRGINIAN</name>
             <address>
-                <line_1>9229 ARLINGTON BLVD</line_1>
-                <line_2></line_2>
+                <line1>9229 ARLINGTON BLVD</line1>
+                <line2></line2>
                 <city>FAIRFAX</city>
                 <state>VA</state>
                 <zip>22031</zip>
             </address>
             <type>Nursing Home</type>
             <specialty></specialty>
-            <medicare_provider>Yes</medicare_provider>
+            <medicareProvider>Yes</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>KINDRED TRANSITIONAL CARE AND REHAB-ALLISON POINTE</name>
             <address>
-                <line_1>5226 E 82ND ST</line_1>
-                <line_2></line_2>
+                <line1>5226 E 82ND ST</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46250</zip>
             </address>
             <type>Nursing Home</type>
             <specialty></specialty>
-            <medicare_provider>Yes</medicare_provider>
+            <medicareProvider>Yes</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>INDIANA HEART HOSPITAL THE</name>
             <address>
-                <line_1>8075 N SHADELAND AVE</line_1>
-                <line_2></line_2>
+                <line1>8075 N SHADELAND AVE</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46250</zip>
             </address>
             <type>Hospital</type>
             <specialty></specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>COMMUNITY HOSPITAL NORTH</name>
             <address>
-                <line_1>7150 CLEARVISTA DR</line_1>
-                <line_2></line_2>
+                <line1>7150 CLEARVISTA DR</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46256</zip>
             </address>
             <type>Hospital</type>
             <specialty></specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name>FORUM AT THE CROSSING</name>
             <address>
-                <line_1>8505 WOODFIELD CROSSING BLVD</line_1>
-                <line_2></line_2>
+                <line1>8505 WOODFIELD CROSSING BLVD</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46240</zip>
             </address>
             <type>Nursing Home</type>
             <specialty></specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
         <provider>
             <name></name>
             <address>
-                <line_1></line_1>
-                <line_2></line_2>
+                <line1></line1>
+                <line2></line2>
                 <city></city>
                 <state></state>
                 <zip></zip>
             </address>
             <type>Physician and Other Healthcare Professional</type>
             <specialty></specialty>
-            <medicare_provider>Not Available</medicare_provider>
+            <medicareProvider>Not Available</medicareProvider>
             <source>patient</source>
         </provider>
     </providers>
@@ -844,8 +845,8 @@
         <pharmacy>
             <name>Castleton Integrative Health</name>
             <address>
-                <line_1>8208 Allisonville Rd</line_1>
-                <line_2></line_2>
+                <line1>8208 Allisonville Rd</line1>
+                <line2></line2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46250</zip>
@@ -856,8 +857,8 @@
         <pharmacy>
             <name>Costco Pharmacy Indianapolis, IN 462506110</name>
             <address>
-                <line_1>East 86th Street</line_1>
-                <line_2></line_2>
+                <line1>East 86th Street</line1>
+                <line2></line2>
                 <city>Castleton</city>
                 <state>IN</state>
                 <zip>46250</zip>
@@ -869,52 +870,52 @@
     <insurance>
         <plan>
             <category>Medicare</category>
-            <msp_type></msp_type>
-            <contract_id_plan_id>S1111/801</contract_id_plan_id>
-            <start_date>20120112</start_date>
-            <end_date></end_date>
+            <mspType></mspType>
+            <contractIdPlanId>S1111/801</contractIdPlanId>
+            <startDate>20120112</startDate>
+            <endDate></endDate>
             <insurer>Medicare</insurer>
             <name></name>
-            <marketing_name></marketing_name>
+            <marketingName></marketingName>
             <address></address>
             <type>11 - Medicare Prescription Drug Plan</type>
             <source>MyMedicare.gov</source>
         </plan>
         <plan>
             <category>Employer Subsidy</category>
-            <msp_type></msp_type>
-            <contract_id_plan_id></contract_id_plan_id>
-            <start_date></start_date>
-            <end_date></end_date>
+            <mspType></mspType>
+            <contractIdPlanId></contractIdPlanId>
+            <startDate></startDate>
+            <endDate></endDate>
             <insurer></insurer>
             <name></name>
-            <marketing_name></marketing_name>
+            <marketingName></marketingName>
             <address></address>
             <type></type>
             <source>MyMedicare.gov</source>
         </plan>
         <plan>
             <category>Primary Insurance</category>
-            <msp_type></msp_type>
-            <contract_id_plan_id></contract_id_plan_id>
-            <start_date></start_date>
-            <end_date></end_date>
+            <mspType></mspType>
+            <contractIdPlanId></contractIdPlanId>
+            <startDate></startDate>
+            <endDate></endDate>
             <insurer></insurer>
             <name></name>
-            <marketing_name></marketing_name>
+            <marketingName></marketingName>
             <address></address>
             <type></type>
             <source>MyMedicare.gov</source>
         </plan>
         <plan>
             <category>Other Insurance</category>
-            <msp_type></msp_type>
-            <contract_id_plan_id>30002</contract_id_plan_id>
-            <start_date>19841001</start_date>
-            <end_date></end_date>
+            <mspType></mspType>
+            <contractIdPlanId>30002</contractIdPlanId>
+            <startDate>19841001</startDate>
+            <endDate></endDate>
             <insurer>UNITEDHEALTH GROUP</insurer>
             <name></name>
-            <marketing_name></marketing_name>
+            <marketingName></marketingName>
             <address>601 OFFICE CENTER DRIVE FORT WASHINGTON, PA 19034</address>
             <type></type>
             <source>MyMedicare.gov</source>
@@ -922,119 +923,119 @@
     </insurance>
 	<claims>
 		<claim>
-            <claim_number>0210336239290</claim_number>
+            <claimNumber>0210336239290</claimNumber>
             <source>MyMedicare.gov</source>
     		<type>Part B</type>
 	    	<provider>
 		    	<name>Inova Health Services</name>
-			    <provider_id>123456789</provider_id>
-	    		<provider_id_type>National Provider ID</provider_id_type>
-		    	<provider_billing_address>601 OFFICE CENTER DRIVE FORT WASHINGTON, PA 19034</provider_billing_address>
+			    <providerId>123456789</providerId>
+	    		<providerIdType>National Provider ID</providerIdType>
+		    	<providerBillingAddress>601 OFFICE CENTER DRIVE FORT WASHINGTON, PA 19034</providerBillingAddress>
 		    </provider>
 		    <date>
-			    <start_date>20101102</start_date>
-			    <end_date>20101102</end_date>
+			    <startDate>20101102</startDate>
+			    <endDate>20101102</endDate>
 		    </date>
 		    <charges>
-			    <price_billed>1022.5</price_billed>
-    			<negotiated_price>782.33</negotiated_price>
-	    		<insurance_paid>625.86</insurance_paid>
-		    	<patient_responsibility>156.47</patient_responsibility>
+			    <priceBilled>1022.5</priceBilled>
+    			<negotiatedPrice>782.33</negotiatedPrice>
+	    		<insurancePaid>625.86</insurancePaid>
+		    	<patientResponsibility>156.47</patientResponsibility>
 		    </charges>
 		    <service>
 			    <name>Name of Service Provided</name>
-    			<code_system_name>CPT</code_system_name>
-	    		<code_system>2.16.840.1.113883.6.96</code_system>
+    			<codeSystemName>CPT</codeSystemName>
+	    		<codeSystem>2.16.840.1.113883.6.96</codeSystem>
 		    	<code>28521</code>
 		    </service>
 		    <diagnoses>
 			    <name>Name of Condition</name>
-	    		<code_system_name>CPT</code_system_name>
-		    	<code_system>2.16.840.1.113883.6.96</code_system>
+	    		<codeSystemName>CPT</codeSystemName>
+		    	<codeSystem>2.16.840.1.113883.6.96</codeSystem>
 			    <code>28521</code>
 		    </diagnoses>
 		    <diagnoses>
 			    <name>Name of Condition</name>
-    			<code_system_name>CPT</code_system_name>
-	    		<code_system>2.16.840.1.113883.6.96</code_system>
+    			<codeSystemName>CPT</codeSystemName>
+	    		<codeSystem>2.16.840.1.113883.6.96</codeSystem>
 		    	<code>5854</code>
 		    </diagnoses>
 		    <details>
-			    <start_date>20101102</start_date>
-    			<end_date>20101102</end_date>
-	    		<procedure_code>A0428</procedure_code>
-		    	<procedure_description>Description of Procedure</procedure_description>
+			    <startDate>20101102</startDate>
+    			<endDate>20101102</endDate>
+	    		<procedureCode>A0428</procedureCode>
+		    	<procedureDescription>Description of Procedure</procedureDescription>
 			    <modifiers>
 				    <description>Additional details</description>
                     <description>more information</description>
     			</modifiers>
 	    		<quantity>1</quantity>
-		    	<price_billed>275.00</price_billed>
-			    <negotiated_price>208.99</negotiated_price>
-    			<patient_responsibility>66.01</patient_responsibility>
-	    		<place_of_service_code>41</place_of_service_code>
-		    	<place_of_service>Ambulance - Land</place_of_service>
-			    <type_of_service_code>9</type_of_service_code>
-    			<type_of_service>Other Medical Services</type_of_service>
-	    		<rendering_provider_number>Q335520003</rendering_provider_number>
-		    	<rendering_provider_npi>1023062544</rendering_provider_npi>
+		    	<priceBilled>275.00</priceBilled>
+			    <negotiatedPrice>208.99</negotiatedPrice>
+    			<patientResponsibility>66.01</patientResponsibility>
+	    		<placeOfServiceCode>41</placeOfServiceCode>
+		    	<placeOfService>Ambulance - Land</placeOfService>
+			    <typeOfServiceCode>9</typeOfServiceCode>
+    			<typeOfService>Other Medical Services</typeOfService>
+	    		<renderingProviderNumber>Q335520003</renderingProviderNumber>
+		    	<renderingProviderNpi>1023062544</renderingProviderNpi>
 		    </details>
     		<details>
-	    		<start_date>20101102</start_date>
-		    	<end_date>20101102</end_date>
-			    <procedure_code>A0428</procedure_code>
-    			<procedure_description>Description of Procedure</procedure_description>
+	    		<startDate>20101102</startDate>
+		    	<endDate>20101102</endDate>
+			    <procedureCode>A0428</procedureCode>
+    			<procedureDescription>Description of Procedure</procedureDescription>
 	    		<modifiers>
 		    		<description>Additional details</description>
 			    </modifiers>
 			    <quantity>1</quantity>
-    			<price_billed>275</price_billed>
-	    		<negotiated_price>208.99</negotiated_price>
-		    	<patient_responsibility>66.01</patient_responsibility>
-			    <place_of_service_code>41</place_of_service_code>
-    			<place_of_service>Ambulance - Land</place_of_service>
-	    		<type_of_service_code>9</type_of_service_code>
-		    	<type_of_service>Other Medical Services</type_of_service>
-			    <rendering_provider_number>Q335520003</rendering_provider_number>
-    			<rendering_provider_npi>1023062544</rendering_provider_npi>
+    			<priceBilled>275</priceBilled>
+	    		<negotiatedPrice>208.99</negotiatedPrice>
+		    	<patientResponsibility>66.01</patientResponsibility>
+			    <placeOfServiceCode>41</placeOfServiceCode>
+    			<placeOfService>Ambulance - Land</placeOfService>
+	    		<typeOfServiceCode>9</typeOfServiceCode>
+		    	<typeOfService>Other Medical Services</typeOfService>
+			    <renderingProviderNumber>Q335520003</renderingProviderNumber>
+    			<renderingProviderNpi>1023062544</renderingProviderNpi>
 	    	</details>
 		    <details>
-			    <start_date>20101102</start_date>
-   			    <end_date>20101102</end_date>
-			    <procedure_code>A0425</procedure_code>
-    			<procedure_description>Description of Procedure</procedure_description>
+			    <startDate>20101102</startDate>
+   			    <endDate>20101102</endDate>
+			    <procedureCode>A0425</procedureCode>
+    			<procedureDescription>Description of Procedure</procedureDescription>
 	    		<modifiers>
 		    		<description>Additional details</description>
     			</modifiers>
 	    		<quantity>44</quantity>
-		    	<price_billed>472.5</price_billed>
-			    <negotiated_price>364.35</negotiated_price>
-    			<patient_responsibility>108.15</patient_responsibility>
-	    		<place_of_service_code>41</place_of_service_code>
-		    	<place_of_service>Ambulance - Land</place_of_service>
-    			<type_of_service_code>9</type_of_service_code>
-	    		<type_of_service>Other Medical Services</type_of_service>
-		    	<rendering_provider_number>Q335520003</rendering_provider_number>
-			    <rendering_provider_npi>1023062544</rendering_provider_npi>
+		    	<priceBilled>472.5</priceBilled>
+			    <negotiatedPrice>364.35</negotiatedPrice>
+    			<patientResponsibility>108.15</patientResponsibility>
+	    		<placeOfServiceCode>41</placeOfServiceCode>
+		    	<placeOfService>Ambulance - Land</placeOfService>
+    			<typeOfServiceCode>9</typeOfServiceCode>
+	    		<typeOfService>Other Medical Services</typeOfService>
+		    	<renderingProviderNumber>Q335520003</renderingProviderNumber>
+			    <renderingProviderNpi>1023062544</renderingProviderNpi>
     		</details>
         </claim>
         <claim>
-            <claim_number>000000123456</claim_number>
+            <claimNumber>000000123456</claimNumber>
             <source>MyMedicare.gov</source>
             <type>Part D</type>
             <pharmacy>
 	    	    <name>Costco Pharmacy</name>
-		        <provider_id>1234567891</provider_id>
-                <provider_id_type>National Provider ID</provider_id_type>
-                <provider_billing_address>601 FIRST STREET, FORT WASHINGTON, PA 19034</provider_billing_address>
+		        <providerId>1234567891</providerId>
+                <providerIdType>National Provider ID</providerIdType>
+                <providerBillingAddress>601 FIRST STREET, FORT WASHINGTON, PA 19034</providerBillingAddress>
             </pharmacy>
             <date>20071002</date>
             <drug>
 		        <name>OXISTAT</name>
-                <code_system_name>RxNorm</code_system_name>
+                <codeSystemName>RxNorm</codeSystemName>
 	        	<code>00462035860</code>
-                <fill_number>0</fill_number>
-	        	<days_supply>30</days_supply>
+                <fillNumber>0</fillNumber>
+	        	<daysSupply>30</daysSupply>
             </drug>
             <prescriber>
 		        <identifier>1111111111</identifier>
@@ -1042,4 +1043,4 @@
             </prescriber>
         </claim>
 	</claims>
-</blue_button_data>
+</blueButtonData>
