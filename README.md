@@ -6,6 +6,9 @@ Exploring JSON representation for claims data.
 A sample BlueButton Test file (medicare/medicare_bbp.txt) from MyMedicare.gov has been used to create a medicare_bbp.xml and medicare_bbp.json format.
 This has been based on the claims.xml file that was initially created by Ryan Panchadsaram. 
 
+Latest change is to change field names to headlessCamelCase. ie. "Medicare Part B Effective Date" becomes "medicarePartBEffectiveDate".
+
+
 Objective 
 ---------
 
