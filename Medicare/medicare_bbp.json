@@ -12,8 +12,8 @@
               "middleName": "Harrison",
               "lastName": "Lu",
               "dateOfBirth": "19100101",
-              "address":{"line1": "8115 Knuee Road",
-                         "line2": "Mailpoint INA1-AF-16",
+              "address":{"addressLine1": "8115 Knuee Road",
+                         "addressLine2": "Mailpoint INA1-AF-16",
                          "city": "Indianapolis",
                          "state": "IN",
                          "zip": "46250"
@@ -36,8 +36,8 @@
             "lastName": "Bigelow",
             "address": {
               "type": "Home",
-              "line1": "1234 Carnival Lane",
-              "line2": "Apt B",
+              "AddressLine1": "1234 Carnival Lane",
+              "AddressLine2": "Apt B",
               "city": "Lobster Bay",
               "state": "ME",
               "zip": "11112"
