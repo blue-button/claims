@@ -11,7 +11,7 @@
               "firstName": "Ellen",
               "middleName": "Harrison",
               "lastName": "Lu",
-              "birthday": "19100101",
+              "dateOfBirth": "19100101",
               "address":{"line1": "8115 Knuee Road",
                          "line2": "Mailpoint INA1-AF-16",
                          "city": "Indianapolis",
