@@ -30,14 +30,14 @@
               "source": "medicare.gov"
               },
   "emergencyContact": [
-          {"name": "Billy B Bigelow",
+          {"contactName": "Billy B Bigelow",
             "firstName": "Billy",
             "middleName": "B",
             "lastName": "Bigelow",
             "address": {
-              "type": "Home",
-              "AddressLine1": "1234 Carnival Lane",
-              "AddressLine2": "Apt B",
+              "addressType": "Home",
+              "addressLine1": "1234 Carnival Lane",
+              "addressLine2": "Apt B",
               "city": "Lobster Bay",
               "state": "ME",
               "zip": "11112"
@@ -51,14 +51,14 @@
             "email": "billy.bigelow@example.com",
             "source": "patient"
           },
-          {"name": "Enoch C Snow",
+          {"contactName": "Enoch C Snow",
             "firstName": "Enoch",
             "middleName": "C",
             "lastName": "Snow",
             "address": {
-              "type": "Home",
-              "line1": "2345 Fish Head Cove",
-              "line2": "C",
+              "addressType": "Home",
+              "addressLine1": "2345 Fish Head Cove",
+              "addressLine2": "C",
               "city": "Lobster Bay",
               "state": "ME",
               "zip": "11112"
@@ -738,10 +738,10 @@
     }
   ],
   "pharmacies": [
-    {"name": "Castleton Integrative Health",
+    {"pharmacyName": "Castleton Integrative Health",
       "address": {
         "line1": "8208 Allisonville Rd",
-        "line2": [],
+        "line2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46250"
@@ -749,10 +749,10 @@
       "phone": "317-849-1222",
       "source": "patient"
     },
-    {"name": "Costco Pharmacy Indianapolis, IN 462506110",
+    {"pharmacyName": "Costco Pharmacy Indianapolis, IN 462506110",
       "address": {
         "line1": "East 86th Street",
-        "line2": [],
+        "line2":"",
         "city": "Castleton",
         "state": "IN",
         "zip": "46250"
