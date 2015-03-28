@@ -25,8 +25,8 @@
 		<lastName>Lu</lastName>
         <birthday>19100101</birthday>
         <address>
-            <line1>8115 Knuee Road</line1>
-            <line2>Mailpoint INA1-AF-16</line2>
+            <addressLine1>8115 Knuee Road</addressLine1>
+            <addressLine2>Mailpoint INA1-AF-16</addressLine2>
             <city>Indianapolis</city>
             <state>IN</state>
             <zip>46250</zip>
@@ -50,8 +50,8 @@
             <lastName>Bigelow</lastName>
             <address>
                 <type>Home</type>
-                <line1>1234 Carnival Lane</line1>
-                <line2>Apt B</line2>
+                <addressLine1>1234 Carnival Lane</addressLine1>
+                <addressLine2>Apt B</addressLine2>
                 <city>Lobster Bay</city>
                 <state>ME</state>
                 <zip>11112</zip>
@@ -72,8 +72,8 @@
             <lastName>Snow</lastName>
             <address>
                 <type>Home</type>
-                <line1>2345 Fish Head Cove</line1>
-                <line2>C</line2>
+                <addressLine1>2345 Fish Head Cove</addressLine1>
+                <addressLine2>C</addressLine2>
                 <city>Lobster Bay</city>
                 <state>ME</state>
                 <zip>11112</zip>
@@ -591,8 +591,8 @@
         <provider>
             <name>ANGELO SCOTTI</name>
             <address>
-                <line1>180 WHITE RD</line1>
-                <line2></line2>
+                <addressLine1>180 WHITE RD</addressLine1>
+                <addressLine2></addressLine2>
                 <city>LITTLE SILVER</city>
                 <state>NJ</state>
                 <zip>07739</zip>
@@ -605,8 +605,8 @@
         <provider>
             <name>DOUGLAS KNOX</name>
             <address>
-                <line1>1104 E 23RD ST</line1>
-                <line2></line2>
+                <addressLine1>1104 E 23RD ST</addressLine1>
+                <addressLine2></addressLine2>
                 <city>LAWRENCE</city>
                 <state>KS</state>
                 <zip>66046</zip>
@@ -619,8 +619,8 @@
         <provider>
             <name>SIAMAK RASSADI</name>
             <address>
-                <line1>1331 N 7TH ST</line1>
-                <line2></line2>
+                <addressLine1>1331 N 7TH ST</addressLine1>
+                <addressLine2></addressLine2>
                 <city>PHOENIX</city>
                 <state>AZ</state>
                 <zip>85006</zip>
@@ -633,8 +633,8 @@
         <provider>
             <name>PETER LEAVITT</name>
             <address>
-                <line1>2965 NECONNERS AVE</line1>
-                <line2></line2>
+                <addressLine1>2965 NECONNERS AVE</addressLine1>
+                <addressLine2></addressLine2>
                 <city>BEND</city>
                 <state>OR</state>
                 <zip>97701</zip>
@@ -647,8 +647,8 @@
         <provider>
             <name>JOHN KENNEDY</name>
             <address>
-                <line1>8888 KEYSTONE XING</line1>
-                <line2></line2>
+                <addressLine1>8888 KEYSTONE XING</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46240</zip>
@@ -661,8 +661,8 @@
         <provider>
             <name>REBECCA KELLY</name>
             <address>
-                <line1>7250 CLEARVISTA DR</line1>
-                <line2></line2>
+                <addressLine1>7250 CLEARVISTA DR</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46256</zip>
@@ -675,8 +675,8 @@
         <provider>
             <name>RILEY HOSPITAL - PEDS DIALYSIS</name>
             <address>
-                <line1>705 RILEY HOSPITAL DRIVE</line1>
-                <line2></line2>
+                <addressLine1>705 RILEY HOSPITAL DRIVE</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46202</zip>
@@ -689,8 +689,8 @@
         <provider>
             <name>FMC - SHADELAND STATION</name>
             <address>
-                <line1>7155 SHADELAND STATION</line1>
-                <line2>STE 130</line2>
+                <addressLine1>7155 SHADELAND STATION</addressLine1>
+                <addressLine2>STE 130</addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46256</zip>
@@ -703,8 +703,8 @@
         <provider>
             <name>IU HEALTH - HOME DIALYSIS</name>
             <address>
-                <line1>8803 N. MERIDIAN ST.</line1>
-                <line2>STE 150</line2>
+                <addressLine1>8803 N. MERIDIAN ST.</addressLine1>
+                <addressLine2>STE 150</addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46260</zip>
@@ -717,8 +717,8 @@
         <provider>
             <name>MESA VISTA OF BOULDER</name>
             <address>
-                <line1>2121 MESA DRIVE</line1>
-                <line2></line2>
+                <addressLine1>2121 MESA DRIVE</addressLine1>
+                <addressLine2></addressLine2>
                 <city>BOULDER</city>
                 <state>CO</state>
                 <zip>80304</zip>
@@ -731,8 +731,8 @@
         <provider>
             <name>FAIRBANKS</name>
             <address>
-                <line1>8102 CLEARVISTA PARKWAY</line1>
-                <line2></line2>
+                <addressLine1>8102 CLEARVISTA PARKWAY</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLis</city>
                 <state>IN</state>
                 <zip>46256</zip>
@@ -745,8 +745,8 @@
         <provider>
             <name>ALLIANCE HOME HEALTH SERVICES INC</name>
             <address>
-                <line1>9615 N COLLEGE AVE</line1>
-                <line2></line2>
+                <addressLine1>9615 N COLLEGE AVE</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46280</zip>
@@ -759,8 +759,8 @@
         <provider>
             <name>THE VIRGINIAN</name>
             <address>
-                <line1>9229 ARLINGTON BLVD</line1>
-                <line2></line2>
+                <addressLine1>9229 ARLINGTON BLVD</addressLine1>
+                <addressLine2></addressLine2>
                 <city>FAIRFAX</city>
                 <state>VA</state>
                 <zip>22031</zip>
@@ -773,8 +773,8 @@
         <provider>
             <name>KINDRED TRANSITIONAL CARE AND REHAB-ALLISON POINTE</name>
             <address>
-                <line1>5226 E 82ND ST</line1>
-                <line2></line2>
+                <addressLine1>5226 E 82ND ST</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46250</zip>
@@ -787,8 +787,8 @@
         <provider>
             <name>INDIANA HEART HOSPITAL THE</name>
             <address>
-                <line1>8075 N SHADELAND AVE</line1>
-                <line2></line2>
+                <addressLine1>8075 N SHADELAND AVE</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46250</zip>
@@ -801,8 +801,8 @@
         <provider>
             <name>COMMUNITY HOSPITAL NORTH</name>
             <address>
-                <line1>7150 CLEARVISTA DR</line1>
-                <line2></line2>
+                <addressLine1>7150 CLEARVISTA DR</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46256</zip>
@@ -815,8 +815,8 @@
         <provider>
             <name>FORUM AT THE CROSSING</name>
             <address>
-                <line1>8505 WOODFIELD CROSSING BLVD</line1>
-                <line2></line2>
+                <addressLine1>8505 WOODFIELD CROSSING BLVD</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46240</zip>
@@ -829,8 +829,8 @@
         <provider>
             <name></name>
             <address>
-                <line1></line1>
-                <line2></line2>
+                <addressLine1></addressLine1>
+                <addressLine2></addressLine2>
                 <city></city>
                 <state></state>
                 <zip></zip>
@@ -845,8 +845,8 @@
         <pharmacy>
             <name>Castleton Integrative Health</name>
             <address>
-                <line1>8208 Allisonville Rd</line1>
-                <line2></line2>
+                <addressLine1>8208 Allisonville Rd</addressLine1>
+                <addressLine2></addressLine2>
                 <city>INDIANAPOLIS</city>
                 <state>IN</state>
                 <zip>46250</zip>
@@ -857,8 +857,8 @@
         <pharmacy>
             <name>Costco Pharmacy Indianapolis, IN 462506110</name>
             <address>
-                <line1>East 86th Street</line1>
-                <line2></line2>
+                <addressLine1>East 86th Street</addressLine1>
+                <addressLine2></addressLine2>
                 <city>Castleton</city>
                 <state>IN</state>
                 <zip>46250</zip>

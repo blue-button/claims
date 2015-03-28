@@ -21,7 +21,7 @@
               "patientIdentifier": "W1234123456",
               "phone": [
                         "215-555-0684"],
-              "emailAddress": "testUserFh@gmail.com",
+              "email": "testUserFh@gmail.com",
 
               "medicare": {
                            "partAEffectiveDate": "19850103",
@@ -48,7 +48,7 @@
                       "work": "123-456-7891",
                       "mobile": "123-456-7892"
                      },
-            "email": "billy.bigelow@example.com",
+            "emailAddress": "billy.bigelow@example.com",
             "source": "patient"
           },
           {"contactName": "Enoch C Snow",
@@ -69,14 +69,14 @@
                       "work": "123-456-7891",
                       "mobile": "123-456-7892"
                      },
-            "email": "esnoww@example.com",
+            "emailAddress": "esnoww@example.com",
             "source": "patient"
           }
   ],
   "medicalConditions": [
           {"name": "Allergies",
             "start": "20130129",
-            "end": [],
+            "end": "",
             "source": "patient"
           },
           {"name": "Arthritis",
@@ -92,12 +92,12 @@
           },
           {"name": "Other",
             "start": "20110102",
-            "end": [],
+            "end": "",
             "source": "patient"
           },
           {"name": "Other",
             "start": "20120228",
-            "end": [],
+            "end": "",
             "source": "patient"
           }
   ],
@@ -108,9 +108,9 @@
             "severity": [],
             "diagnosed": [],
             "treatment": [],
-            "firstEpisodeDate": [],
-            "lastEpisodeDate": [],
-            "lastTreatmentDate": [],
+            "firstEpisodeDate": "",
+            "lastEpisodeDate": "",
+            "lastTreatmentDate": "",
             "comments": [],
             "source": "patient"
           },
@@ -120,9 +120,9 @@
             "severity": "Mild",
             "diagnosed": "Yes",
             "treatment": "Other",
-            "firstEpisodeDate": [],
-            "lastEpisodeDate": [],
-            "lastTreatmentDate": [],
+            "firstEpisodeDate": "",
+            "lastEpisodeDate": "",
+            "lastTreatmentDate": "",
             "comments": [],
             "source": "patient"
           },
@@ -144,9 +144,9 @@
             "severity": [],
             "diagnosed": [],
             "treatment": [],
-            "firstEpisodeDate": [],
-            "lastEpisodeDate": [],
-            "lastTreatmentDate": [],
+            "firstEpisodeDate": "",
+            "lastEpisodeDate": "",
+            "lastTreatmentDate": "",
             "comments": [],
             "source": "patient"
           }
@@ -186,9 +186,7 @@
             "boosters": [
                 ["20110402"],
                 ["20120604"],
-                [
-                    []
-                ]
+                [""]
             ],
             "source": "patient"
           }
@@ -266,7 +264,7 @@
         {"relationship": "Daughter",
           "type": "Maternal",
           "dateOfBirth": "19940101",
-          "dateOfDeath": [],
+          "dateOfDeath": "",
           "age": "31",
           "condition": [
               {"type": "Allergy",
@@ -284,7 +282,7 @@
         {"relationship": "Brother",
           "type": "Paternal",
           "dateOfBirth": "20120404",
-          "dateOfDeath": [],
+          "dateOfDeath": "",
           "age": [],
           "condition": [
               {"type": "Allergy",
@@ -427,17 +425,17 @@
   "preventiveServices": [
     {"description": "ABDOMINAL AORTIC ANEURYSM",
       "nextEligibleDate": "20140201",
-      "lastDateOfService": [],
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "CARDIOVASCULAR",
       "nextEligibleDate": "20140201",
-      "lastDateOfService": [],
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "PPV",
       "nextEligibleDate": "20140201",
-      "lastDateOfService": [],
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "PROSTATE",
@@ -452,60 +450,60 @@
     },
     {"description": "ANNUAL WELLNESS VISIT",
       "nextEligibleDate": "20150201",
-      "lastDateOfService": [],
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "ALCOHOL MISUSE SCREENING",
-      "nextEligibleDate": [],
-      "lastDateOfService": [],
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "CARDIOVASCULAR DISEASE (BEHAVIORAL THERAPY)",
-      "nextEligibleDate": [],
-      "lastDateOfService": [],
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "COLORECTAL",
-      "nextEligibleDate": [],
+      "nextEligibleDate": "",
       "lastDateOfService": "20110421",
       "source": "MyMedicare.gov"
     },
     {"description": "DEPRESSION SCREENING",
-      "nextEligibleDate": [],
-      "lastDateOfService": [],
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "DIABETES",
-      "nextEligibleDate": [],
+      "nextEligibleDate": "",
       "lastDateOfService": "20120521",
       "source": "MyMedicare.gov"
     },
     {"description": "HIGH INTENSITY BEHAVIORAL COUNSELING",
-      "nextEligibleDate": [],
-      "lastDateOfService": [],
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "OBESITY COUNSELING",
-      "nextEligibleDate": [],
-      "lastDateOfService": [],
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "PHYSICAL",
-      "nextEligibleDate": [],
-      "lastDateOfService": [],
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     },
     {"description": "SMOKING CESSATION (counseling to stop smoking)",
-      "nextEligibleDate": [],
-      "lastDateOfService": [],
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
       "source": "MyMedicare.gov"
     }
   ],
   "providers": [
     {"name": "ANGELO SCOTTI",
       "address": {
-        "line1": "180 WHITE RD",
-        "line2": [],
+        "addressLine1": "180 WHITE RD",
+        "addressLine2": "",
         "city": "LITTLE SILVER",
         "state": "NJ",
         "zip": "07739"
@@ -517,8 +515,8 @@
     },
     {"name": "DOUGLAS KNOX",
       "address": {
-        "line1": "1104 E 23RD ST",
-        "line2": [],
+        "addressLine1": "1104 E 23RD ST",
+        "addressLine2": "",
         "city": "LAWRENCE",
         "state": "KS",
         "zip": "66046"
@@ -530,8 +528,8 @@
     },
     {"name": "SIAMAK RASSADI",
       "address": {
-        "line1": "1331 N 7TH ST",
-        "line2": [],
+        "addressLine1": "1331 N 7TH ST",
+        "addressLine2": "",
         "city": "PHOENIX",
         "state": "AZ",
         "zip": "85006"
@@ -543,21 +541,21 @@
     },
     {"name": "PETER LEAVITT",
       "address": {
-        "line1": "2965 NECONNERS AVE",
-        "line2": [],
+        "addressLine1": "2965 NECONNERS AVE",
+        "addressLine2": "",
         "city": "BEND",
         "state": "OR",
         "zip": "97701"
       },
       "type": "Physician and Other Healthcare Professional",
-      "specialty": [],
+      "specialty": "",
       "medicareProvider": "Yes",
       "source": "patient"
     },
     {"name": "JOHN KENNEDY",
       "address": {
-        "line1": "8888 KEYSTONE XING",
-        "line2": [],
+        "addressLine1": "8888 KEYSTONE XING",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46240"
@@ -569,8 +567,8 @@
     },
     {"name": "REBECCA KELLY",
       "address": {
-        "line1": "7250 CLEARVISTA DR",
-        "line2": [],
+        "addressLine1": "7250 CLEARVISTA DR",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46256"
@@ -582,8 +580,8 @@
     },
     {"name": "RILEY HOSPITAL - PEDS DIALYSIS",
       "address": {
-        "line1": "705 RILEY HOSPITAL DRIVE",
-        "line2": [],
+        "addressLine1": "705 RILEY HOSPITAL DRIVE",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46202"
@@ -595,8 +593,8 @@
     },
     {"name": "FMC - SHADELAND STATION",
       "address": {
-        "line1": "7155 SHADELAND STATION",
-        "line2": "STE 130",
+        "addressLine1": "7155 SHADELAND STATION",
+        "addressLine2": "STE 130",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46256"
@@ -608,8 +606,8 @@
     },
     {"name": "IU HEALTH - HOME DIALYSIS",
       "address": {
-        "line1": "8803 N. MERIDIAN ST.",
-        "line2": "STE 150",
+        "addressLine1": "8803 N. MERIDIAN ST.",
+        "addressLine2": "STE 150",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46260"
@@ -621,8 +619,8 @@
     },
     {"name": "MESA VISTA OF BOULDER",
       "address": {
-        "line1": "2121 MESA DRIVE",
-        "line2": [],
+        "addressLine1": "2121 MESA DRIVE",
+        "addressLine2": "",
         "city": "BOULDER",
         "state": "CO",
         "zip": "80304"
@@ -634,8 +632,8 @@
     },
     {"name": "FAIRBANKS",
       "address": {
-        "line1": "8102 CLEARVISTA PARKWAY",
-        "line2": [],
+        "addressLine1": "8102 CLEARVISTA PARKWAY",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46256"
@@ -647,8 +645,8 @@
     },
     {"name": "ALLIANCE HOME HEALTH SERVICES INC",
       "address": {
-        "line1": "9615 N COLLEGE AVE",
-        "line2": [],
+        "addressLine1": "9615 N COLLEGE AVE",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46280"
@@ -660,8 +658,8 @@
     },
     {"name": "THE VIRGINIAN",
       "address": {
-        "line1": "9229 ARLINGTON BLVD",
-        "line2": [],
+        "addressLine1": "9229 ARLINGTON BLVD",
+        "addressLine2": "",
         "city": "FAIRFAX",
         "state": "VA",
         "zip": "22031"
@@ -673,8 +671,8 @@
     },
     {"name": "KINDRED TRANSITIONAL CARE AND REHAB-ALLISON POINTE",
       "address": {
-        "line1": "5226 E 82ND ST",
-        "line2": [],
+        "addressLine1": "5226 E 82ND ST",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46250"
@@ -686,8 +684,8 @@
     },
     {"name": "INDIANA HEART HOSPITAL THE",
       "address": {
-        "line1": "8075 N SHADELAND AVE",
-        "line2": [],
+        "addressLine1": "8075 N SHADELAND AVE",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46250"
@@ -699,8 +697,8 @@
     },
     {"name": "COMMUNITY HOSPITAL NORTH",
       "address": {
-        "line1": "7150 CLEARVISTA DR",
-        "line2": [],
+        "addressLine1": "7150 CLEARVISTA DR",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46256"
@@ -712,8 +710,8 @@
     },
     {"name": "FORUM AT THE CROSSING",
       "address": {
-        "line1": "8505 WOODFIELD CROSSING BLVD",
-        "line2": [],
+        "addressLine1": "8505 WOODFIELD CROSSING BLVD",
+        "addressLine2": [],
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46240"
@@ -725,11 +723,11 @@
     },
     {"name": [],
       "address": {
-        "line1": [],
-        "line2": [],
-        "city": [],
-        "state": [],
-        "zip": []
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "state": "",
+        "zip": ""
       },
       "type": "Physician and Other Healthcare Professional",
       "specialty": [],
@@ -740,8 +738,8 @@
   "pharmacies": [
     {"pharmacyName": "Castleton Integrative Health",
       "address": {
-        "line1": "8208 Allisonville Rd",
-        "line2": "",
+        "addressLine1": "8208 Allisonville Rd",
+        "addressLine2": "",
         "city": "INDIANAPOLIS",
         "state": "IN",
         "zip": "46250"
@@ -751,8 +749,8 @@
     },
     {"pharmacyName": "Costco Pharmacy Indianapolis, IN 462506110",
       "address": {
-        "line1": "East 86th Street",
-        "line2":"",
+        "addressLine1": "East 86th Street",
+        "addressLine2":"",
         "city": "Castleton",
         "state": "IN",
         "zip": "46250"
@@ -764,13 +762,13 @@
   "insurance": [
     {"category": "Medicare",
       "mspType": [],
-      "contractIdPlanId": "S1111/801",
+      "contractId/PlanId": "S1111/801",
       "startDate": "20120112",
       "endDate": [],
       "insurer": "Medicare",
-      "name": [],
+      "planName": [],
       "marketingName": [],
-      "address": [],
+      "planAddress": [],
       "type": "11 - Medicare Prescription Drug Plan",
       "source": "MyMedicare.gov"
     },

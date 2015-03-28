@@ -44,12 +44,19 @@ This is a json format file that has been generated from the medicare_bbp.xml usi
 http://www.freeformatter.com/xml-to-json-converter.html
 
 
+Code conversion from medicare_bbp_v2.txt to medicare_bbp_v2.json by python-bluebutton
+(see https://github.com/ekivemark/python-bluebutton
+
+Code conversion from medicare_bbp_v2.json to medicar_bbp_v2.xml by
+http://codebeautify.org/jsontoxml
+
+
 TODO-ekivemark
 --------------
 
 1. Create a generic BlueButtonPlus.xml and BlueButtonPlus.json that covers medicare and non-medicare payers.
 2. Confirm approach in using <source></source>field within data segments to identify source of data.
- 
+3. change field names to remove / 
 Current Source field Values:
 
 + patient
