@@ -1326,7 +1326,7 @@
             "provider": "No Information Available",
             "providerBillingAddress": "",
             "date": {
-                "serviceStartDate": "20140105", 
+                "serviceStartDate": "20140105",
                 "serviceEndDate": "20140105"
             },
             "charges": {
