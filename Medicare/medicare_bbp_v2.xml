@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<blueButtonData>
+<root>
     <header>
         <originator>MyMedicare.gov</originator>
         <languageCode>code="en-US"</languageCode>
@@ -21,8 +21,14 @@
         <comments>https://myMedicare.gov</comments>
         <comments>**********CONFIDENTIAL***********</comments>
         <comments>Produced by the Blue Button (v2.0)</comments>
+        <header>
+            <header>MYMEDICARE.GOV PERSONAL HEALTH INFORMATION</header>
+        </header>
     </header>
     <patient>
+        <patient>
+            <patient>Demographic</patient>
+        </patient>
         <source>MyMedicare.gov</source>
         <name>JOHN DOE</name>
         <dateOfBirth>19100101</dateOfBirth>
@@ -42,10 +48,8 @@
         </medicare>
     </patient>
     <emergencyContact>
-        <source>patient</source>
-        <contactName>
-            <contactName>Billy Bigelow2</contactName>
-        </contactName>
+        <emergencyContact>Emergency Contact</emergencyContact>
+        <contactName>Billy Bigelow2</contactName>
         <address>
             <addressType>Home</addressType>
             <addressLine1>1234 Carnival Lane</addressLine1>
@@ -61,6 +65,8 @@
             <work></work>
         </phone>
         <emailAddress></emailAddress>
+        <category>Emergency Contact</category>
+        <source>patient</source>
     </emergencyContact>
     <emergencyContact>
         <contactName>Enoch Snow</contactName>
@@ -79,40 +85,47 @@
             <work></work>
         </phone>
         <emailAddress></emailAddress>
+        <category>Emergency Contact</category>
         <source>patient</source>
     </emergencyContact>
     <medicalConditions>
-        <source>patient</source>
+        <medicalConditions>Self Reported Medical Conditions</medicalConditions>
         <conditionName>Allergies</conditionName>
         <medicalConditionStartDate>20130129</medicalConditionStartDate>
         <medicalConditionEndDate></medicalConditionEndDate>
+        <category>Self Reported Medical Conditions</category>
+        <source>patient</source>
     </medicalConditions>
     <medicalConditions>
         <conditionName>Arthritis</conditionName>
         <medicalConditionStartDate>19600801</medicalConditionStartDate>
         <medicalConditionEndDate>19801231</medicalConditionEndDate>
+        <category>Self Reported Medical Conditions</category>
         <source>patient</source>
     </medicalConditions>
     <medicalConditions>
         <conditionName>Broken Wrist</conditionName>
         <medicalConditionStartDate>19100206</medicalConditionStartDate>
         <medicalConditionEndDate>20130206</medicalConditionEndDate>
+        <category>Self Reported Medical Conditions</category>
         <source>patient</source>
     </medicalConditions>
     <medicalConditions>
         <conditionName>Other</conditionName>
         <medicalConditionStartDate>20110201</medicalConditionStartDate>
         <medicalConditionEndDate></medicalConditionEndDate>
+        <category>Self Reported Medical Conditions</category>
         <source>patient</source>
     </medicalConditions>
     <medicalConditions>
         <conditionName>Other</conditionName>
         <medicalConditionStartDate>20120228</medicalConditionStartDate>
         <medicalConditionEndDate></medicalConditionEndDate>
+        <category>Self Reported Medical Conditions</category>
         <source>patient</source>
     </medicalConditions>
     <Allergies>
-        <source>patient</source>
+        <Allergies>Self Reported Allergies</Allergies>
         <allergyName>Antibotic</allergyName>
         <type>Drugs</type>
         <reaction></reaction>
@@ -123,6 +136,8 @@
         <lastEpisodeDate></lastEpisodeDate>
         <lastTreatmentDate></lastTreatmentDate>
         <comments></comments>
+        <category>Self Reported Allergies</category>
+        <source>patient</source>
     </Allergies>
     <Allergies>
         <allergyName>Corn</allergyName>
@@ -135,6 +150,7 @@
         <lastEpisodeDate></lastEpisodeDate>
         <lastTreatmentDate></lastTreatmentDate>
         <comments></comments>
+        <category>Self Reported Allergies</category>
         <source>patient</source>
     </Allergies>
     <Allergies>
@@ -148,6 +164,7 @@
         <lastEpisodeDate>20120331</lastEpisodeDate>
         <lastTreatmentDate>20120331</lastTreatmentDate>
         <comments></comments>
+        <category>Self Reported Allergies</category>
         <source>patient</source>
     </Allergies>
     <Allergies>
@@ -161,54 +178,65 @@
         <lastEpisodeDate></lastEpisodeDate>
         <lastTreatmentDate></lastTreatmentDate>
         <comments></comments>
+        <category>Self Reported Allergies</category>
         <source>patient</source>
     </Allergies>
     <ImplantableDevices>
-        <source>patient</source>
+        <ImplantableDevices>Self Reported Implantable Device</ImplantableDevices>
         <deviceName>COronary stent</deviceName>
         <dateImplanted>20051127</dateImplanted>
+        <category>Self Reported Implantable Device</category>
+        <source>patient</source>
     </ImplantableDevices>
     <ImplantableDevices>
         <deviceName>Knee replacement</deviceName>
         <dateImplanted>20140202</dateImplanted>
+        <category>Self Reported Implantable Device</category>
         <source>patient</source>
     </ImplantableDevices>
     <ImplantableDevices>
         <deviceName>Pace maker</deviceName>
         <dateImplanted>20120228</dateImplanted>
+        <category>Self Reported Implantable Device</category>
         <source>patient</source>
     </ImplantableDevices>
     <ImplantableDevices>
         <deviceName>foot</deviceName>
         <dateImplanted>19840909</dateImplanted>
+        <category>Self Reported Implantable Device</category>
         <source>patient</source>
     </ImplantableDevices>
     <ImplantableDevices>
         <deviceName>hearing aid</deviceName>
         <dateImplanted>20130101</dateImplanted>
+        <category>Self Reported Implantable Device</category>
         <source>patient</source>
     </ImplantableDevices>
     <ImplantableDevices>
         <deviceName>nov20</deviceName>
         <dateImplanted>20071215</dateImplanted>
+        <category>Self Reported Implantable Device</category>
         <source>patient</source>
     </ImplantableDevices>
     <Immunizations>
-        <source>patient</source>
+        <Immunizations>Self Reported Immunizations</Immunizations>
         <immunizationName>shingles</immunizationName>
         <dateAdministered>20100203</dateAdministered>
         <method>Injection</method>
         <wereYouVaccinatedInTheUs>Yes</wereYouVaccinatedInTheUs>
         <comments></comments>
+        <category>Self Reported Immunizations</category>
+        <source>patient</source>
     </Immunizations>
     <Immunizations>
         <booster1Date>20110204</booster1Date>
         <booster2Date>20120406</booster2Date>
         <booster3Date></booster3Date>
+        <category>Self Reported Immunizations</category>
         <source>patient</source>
     </Immunizations>
     <Labs>
-        <source>patient</source>
+        <Labs>Self Reported Labs and Tests</Labs>
         <testLabType>Test</testLabType>
         <dateTaken>20130102</dateTaken>
         <administeredBy>Inova</administeredBy>
@@ -216,14 +244,18 @@
         <reasonTestLabRequested></reasonTestLabRequested>
         <results></results>
         <comments></comments>
+        <category>Self Reported Labs and Tests</category>
+        <source>patient</source>
     </Labs>
     <vitals>
-        <source>patient</source>
+        <vitals>Self Reported Vital Statistics</vitals>
         <vitalStatisticType>Glucose</vitalStatisticType>
         <date>20080207</date>
         <time>12:00 AM</time>
         <readingValue>322</readingValue>
         <comments></comments>
+        <category>Self Reported Vital Statistics</category>
+        <source>patient</source>
     </vitals>
     <vitals>
         <vitalStatisticType>Glucose</vitalStatisticType>
@@ -231,6 +263,7 @@
         <time>12:02 PM</time>
         <readingValue>24</readingValue>
         <comments>fwrqwrgreg</comments>
+        <category>Self Reported Vital Statistics</category>
         <source>patient</source>
     </vitals>
     <vitals>
@@ -239,6 +272,7 @@
         <time>12:17 PM</time>
         <readingValue>134</readingValue>
         <comments>rwrtrt</comments>
+        <category>Self Reported Vital Statistics</category>
         <source>patient</source>
     </vitals>
     <vitals>
@@ -247,6 +281,7 @@
         <time>12:00 AM</time>
         <readingValue>other</readingValue>
         <comments></comments>
+        <category>Self Reported Vital Statistics</category>
         <source>patient</source>
     </vitals>
     <vitals>
@@ -255,6 +290,7 @@
         <time>12:00 AM</time>
         <readingValue>333</readingValue>
         <comments></comments>
+        <category>Self Reported Vital Statistics</category>
         <source>patient</source>
     </vitals>
     <vitals>
@@ -263,6 +299,7 @@
         <time>12:09 AM</time>
         <readingValue>80</readingValue>
         <comments>wwqrgtrt</comments>
+        <category>Self Reported Vital Statistics</category>
         <source>patient</source>
     </vitals>
     <vitals>
@@ -271,6 +308,7 @@
         <time>8:06 AM</time>
         <readingValue>100</readingValue>
         <comments>fwqerqwr</comments>
+        <category>Self Reported Vital Statistics</category>
         <source>patient</source>
     </vitals>
     <vitals>
@@ -279,9 +317,11 @@
         <time>9:02 AM</time>
         <readingValue>99</readingValue>
         <comments></comments>
+        <category>Self Reported Vital Statistics</category>
         <source>patient</source>
     </vitals>
     <familyHistory>
+        <familyHistory>Family Medical History</familyHistory>
         <source>patient</source>
         <familyMember>Daughter</familyMember>
         <type>Maternal</type>
@@ -291,16 +331,19 @@
         <condition>
             <type>type</type>
             <description>description</description>
+            <category>Family Medical History</category>
             <source>patient</source>
         </condition>
         <condition>
             <type>type</type>
             <description>description</description>
+            <category>Family Medical History</category>
             <source>patient</source>
         </condition>
         <condition>
             <description>description</description>
         </condition>
+        <category>Family Medical History</category>
     </familyHistory>
     <familyHistory>
         <familyMember>Brother</familyMember>
@@ -311,6 +354,7 @@
         <condition>
             <type>type</type>
             <description>description</description>
+            <category>Family Medical History</category>
             <source>patient</source>
         </condition>
         <condition>
@@ -320,252 +364,296 @@
         <source>patient</source>
     </familyHistory>
     <medications>
-        <source>patient</source>
+        <medications>Drugs</medications>
         <drugName>Abacavir TAB 300MG</drugName>
         <supply>60 Every 1 Month</supply>
         <origDrugEntry>Abacavir</origDrugEntry>
+        <category>Drugs</category>
+        <source>patient</source>
     </medications>
     <medications>
         <drugName>Abilify Maintena INJ 300MG</drugName>
         <supply>1 X Vial Every 1 Month</supply>
         <origDrugEntry>Abilify Maintena</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate TAB 10MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Amlodipine Besylate</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate TAB 2.5MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Amlodipine Besylate</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate TAB 5MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Amlodipine Besylate</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate/Atorvastatin Calcium TAB 10-10MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Amlodipine Besylate/Atorvastatin Calcium</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate/Atorvastatin Calcium TAB 10-20MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Amlodipine Besylate/Atorvastatin Calcium</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate/Atorvastatin Calcium TAB 10-40MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Amlodipine Besylate/Atorvastatin Calcium</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate/Atorvastatin Calcium TAB 10-80MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Amlodipine Besylate/Atorvastatin Calcium</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate/Atorvastatin Calcium TAB 5-10MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Caduet</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Amlodipine Besylate/Atorvastatin Calcium TAB 5-80MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Amlodipine Besylate/Atorvastatin Calcium</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Androgel Pump GEL 1.62%</drugName>
         <supply>2 X 75GM Pump Bottle (sold in a package of 1 pump bottle) Every 1 Month</supply>
         <origDrugEntry>Androgel Pump</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Drospirenone/Ethinyl Estradiol TAB 3-0.03MG</drugName>
         <supply>28 Every 1 Month</supply>
         <origDrugEntry>Yasmin 28</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Gabapentin CAP 100MG</drugName>
         <supply>90 Every 1 Month</supply>
         <origDrugEntry>Gabapentin</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Gabapentin SOL 250/5ML</drugName>
         <supply>1 X 470ML Bottle Every 1 Month</supply>
         <origDrugEntry>Gabapentin</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Jakafi TAB 10MG</drugName>
         <supply>60 Every 1 Month</supply>
         <origDrugEntry>Jakafi</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Losartan Potassium/Hydrochlorothiazide TAB 100-25</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Losartan Potassium/Hydrochlorothiazide</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Montelukast Sodium TAB 10MG</drugName>
         <supply>90 Every 3 Month</supply>
         <origDrugEntry>Montelukast Sodium</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Omeprazole CAP 20MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Omeprazole</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Rabavert INJ</drugName>
         <supply>2 X Vial (sold in a package of 2) Every 12 Month</supply>
         <origDrugEntry>Rabavert</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Tabloid TAB 40MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Tabloid</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Vagifem TAB 10MCG</drugName>
         <supply>8 Every 1 Month</supply>
         <origDrugEntry>Vagifem</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Zafirlukast TAB 20MG</drugName>
         <supply>60 Every 1 Month</supply>
         <origDrugEntry>Zafirlukast</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Zaleplon CAP 10MG</drugName>
         <supply>30 Every 1 Month</supply>
         <origDrugEntry>Zaleplon</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <medications>
         <drugName>Zaltrap INJ 100/4ML</drugName>
         <supply>1 X 4ML Vial Every 1 Month</supply>
         <origDrugEntry>Zaltrap</origDrugEntry>
+        <category>Drugs</category>
         <source>patient</source>
     </medications>
     <preventiveServices>
-        <source>MyMedicare.gov</source>
+        <preventiveServices>Preventive Services</preventiveServices>
         <description>ABDOMINAL AORTIC ANEURYSM</description>
         <nextEligibleDate>20140201</nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
+        <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>CARDIOVASCULAR</description>
         <nextEligibleDate>20140201</nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>PPV</description>
         <nextEligibleDate>20140201</nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>PROSTATE</description>
         <nextEligibleDate>20140201</nextEligibleDate>
         <lastDateOfService>20120326</lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>PSA</description>
         <nextEligibleDate>20140201</nextEligibleDate>
         <lastDateOfService>20120326</lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>ANNUAL WELLNESS VISIT</description>
         <nextEligibleDate>20150201</nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>ALCOHOL MISUSE SCREENING</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>CARDIOVASCULAR DISEASE (BEHAVIORAL THERAPY)</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>COLORECTAL</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService>20110421</lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>DEPRESSION SCREENING</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>DIABETES</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService>20120521</lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>HIGH INTENSITY BEHAVIORAL COUNSELING</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>OBESITY COUNSELING</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>PHYSICAL</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <preventiveServices>
         <description>SMOKING CESSATION (counseling to stop smoking)</description>
         <nextEligibleDate></nextEligibleDate>
         <lastDateOfService></lastDateOfService>
+        <category>Preventive Services</category>
         <source>MyMedicare.gov</source>
     </preventiveServices>
     <providers>
-        <source>patient</source>
+        <providers>Providers</providers>
         <providerName>ANGELO SCOTTI</providerName>
         <providerAddress>180 WHITE RD LITTLE SILVER, NJ 07739</providerAddress>
         <type>Physician & Other Healthcare Professional</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
+        <source>patient</source>
     </providers>
     <providers>
         <providerName>DOUGLAS KNOX</providerName>
@@ -573,6 +661,7 @@
         <type>Physician & Other Healthcare Professional</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -581,6 +670,7 @@
         <type>Physician & Other Healthcare Professional</type>
         <specialty>Cardiac Electrophysiology,Cardiovascular Disease (Cardiology)</specialty>
         <medicareProvider>May Accept Medicare</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -589,6 +679,7 @@
         <type>Physician & Other Healthcare Professional</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -597,6 +688,7 @@
         <type>Physician & Other Healthcare Professional</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -605,6 +697,7 @@
         <type>Physician & Other Healthcare Professional</type>
         <specialty>Addiction Medicine</specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -613,6 +706,7 @@
         <type>Dialysis Facility</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -621,6 +715,7 @@
         <type>Dialysis Facility</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -629,6 +724,7 @@
         <type>Dialysis Facility</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -637,6 +733,7 @@
         <type>Nursing Home</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -645,6 +742,7 @@
         <type>Hospital</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -653,6 +751,7 @@
         <type>Home Health</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -661,6 +760,7 @@
         <type>Nursing Home</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -669,6 +769,7 @@
         <type>Nursing Home</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -677,6 +778,7 @@
         <type>Hospital</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -685,6 +787,7 @@
         <type>Hospital</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -693,6 +796,7 @@
         <type>Nursing Home</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -701,6 +805,7 @@
         <type>Hospital</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -709,6 +814,7 @@
         <type>Dialysis Facility</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -717,6 +823,7 @@
         <type>Dialysis Facility</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -725,6 +832,7 @@
         <type>Dialysis Facility</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -733,6 +841,7 @@
         <type>Hospital</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -741,6 +850,7 @@
         <type>Dialysis Facility</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -749,6 +859,7 @@
         <type>Dialysis Facility</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -757,6 +868,7 @@
         <type>Nursing Home</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -765,6 +877,7 @@
         <type>Home Health</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -773,6 +886,7 @@
         <type>Home Health</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -781,6 +895,7 @@
         <type>Nursing Home</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -789,6 +904,7 @@
         <type>Nursing Home</type>
         <specialty></specialty>
         <medicareProvider>Yes</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -797,6 +913,7 @@
         <type>Hospital</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <providers>
@@ -805,53 +922,45 @@
         <type>Hospital</type>
         <specialty></specialty>
         <medicareProvider>Not Available</medicareProvider>
+        <category>Providers</category>
         <source>patient</source>
     </providers>
     <pharmacies>
-        <source>patient</source>
+        <pharmacies>Pharmacies</pharmacies>
         <pharmacyName>Castleton Integrative Health 8208 Allisonville Rd Indianapolis, IN 46250</pharmacyName>
         <pharmacyPhone>317-849-1222</pharmacyPhone>
+        <category>Pharmacies</category>
+        <source>patient</source>
     </pharmacies>
     <pharmacies>
         <pharmacyName>Costco Pharmacy Indianapolis, IN 462506110 East 86th Street Castleton, IN 46250</pharmacyName>
         <pharmacyPhone>317-558-1452</pharmacyPhone>
+        <category>Pharmacies</category>
         <source>patient</source>
     </pharmacies>
     <insurance>
-        <source>MyMedicare.gov</source>
-        <contractIdPlanId>S1111801</contractIdPlanId>
-        <planPeriod>12012012 - current</planPeriod>
+        <insurance>Plans</insurance>
+        <contractIdPlanId>S1111/801</contractIdPlanId>
+        <planPeriod>12/01/2012 - current</planPeriod>
         <planName></planName>
         <marketingName></marketingName>
         <planAddress></planAddress>
         <planType>11 - Medicare Prescription Drug Plan</planType>
-    </insurance>
-    <insurance>
-        <category>
-            <category>11 - Medicare Prescription Drug Plan</category>
-        </category>
+        <category>Plans</category>
         <source>MyMedicare.gov</source>
     </insurance>
     <insurance>
-        <category>
-            <category>MyMedicare.gov</category>
-        </category>
-        <source>MyMedicare.gov</source>
-    </insurance>
-    <insurance>
-        <category>
-            <category>MyMedicare.gov</category>
-        </category>
         <mspType></mspType>
         <policyNumber>30002</policyNumber>
         <insurerName>UNITEDHEALTH GROUP</insurerName>
         <insurerAddress>601 OFFICE CENTER DRIVE FORT WASHINGTON, PA 19034</insurerAddress>
         <effectiveDate>19841001</effectiveDate>
         <terminationDate></terminationDate>
+        <category>Other Insurance</category>
         <source>MyMedicare.gov</source>
     </insurance>
     <claims>
-        <source>MyMedicare.gov</source>
+        <claims>Claim Summary</claims>
         <claimNumber>11122233330000</claimNumber>
         <provider>No Information Available</provider>
         <providerBillingAddress></providerBillingAddress>
@@ -868,7 +977,10 @@
         <claimType>DME</claimType>
         <diagnosisCode1>32723</diagnosisCode1>
         <diagnosisCode2>78051</diagnosisCode2>
+        <category>Claim Summary</category>
+        <source>MyMedicare.gov</source>
         <details>
+            <details>Claim Lines for Claim Number</details>
             <lineNumber>1</lineNumber>
             <dateOfServiceFrom>20140105</dateOfServiceFrom>
             <dateOfServiceTo>20140105</dateOfServiceTo>
@@ -885,10 +997,13 @@
             <typeOfServiceDescription>R - Rental of DME</typeOfServiceDescription>
             <renderingProviderNo>DMEPROVIDR</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>11122233330000</claimNumber>
         </details>
     </claims>
     <claims>
+        <claim>claim Header</claim>
         <claimNumber>11122233320000</claimNumber>
         <provider>No Information Available</provider>
         <providerBillingAddress></providerBillingAddress>
@@ -905,8 +1020,10 @@
         <claimType>DME</claimType>
         <diagnosisCode1>32723</diagnosisCode1>
         <diagnosisCode2>78051</diagnosisCode2>
+        <category>claim Header</category>
         <source>MyMedicare.gov</source>
         <details>
+            <details>Claim Lines for Claim Number</details>
             <lineNumber>1</lineNumber>
             <dateOfServiceFrom>20140105</dateOfServiceFrom>
             <dateOfServiceTo>20140105</dateOfServiceTo>
@@ -923,10 +1040,13 @@
             <typeOfServiceDescription>R - Rental of DME</typeOfServiceDescription>
             <renderingProviderNo>DMEPROVIDR</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>11122233320000</claimNumber>
         </details>
     </claims>
     <claims>
+        <claim>claim Header</claim>
         <claimNumber>2333444555100</claimNumber>
         <provider>No Information Available</provider>
         <providerBillingAddress></providerBillingAddress>
@@ -945,8 +1065,10 @@
         <diagnosisCode2>7241</diagnosisCode2>
         <diagnosisCode3>7393</diagnosisCode3>
         <diagnosisCode4>7391</diagnosisCode4>
+        <category>claim Header</category>
         <source>MyMedicare.gov</source>
         <details>
+            <details>Claim Lines for Claim Number</details>
             <lineNumber>1</lineNumber>
             <dateOfServiceFrom>20140105</dateOfServiceFrom>
             <dateOfServiceTo>20140105</dateOfServiceTo>
@@ -963,7 +1085,9 @@
             <typeOfServiceDescription>1 - Medical Care</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555100</claimNumber>
         </details>
         <details>
             <lineNumber>2</lineNumber>
@@ -982,10 +1106,13 @@
             <typeOfServiceDescription>1 - Medical Care</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555100</claimNumber>
         </details>
     </claims>
     <claims>
+        <claim>claim Header</claim>
         <claimNumber>2333444555500</claimNumber>
         <provider>No Information Available</provider>
         <providerBillingAddress></providerBillingAddress>
@@ -1001,8 +1128,10 @@
         </charges>
         <claimType>PartB</claimType>
         <diagnosisCode1>70700</diagnosisCode1>
+        <category>claim Header</category>
         <source>MyMedicare.gov</source>
         <details>
+            <details>Claim Lines for Claim Number</details>
             <lineNumber>1</lineNumber>
             <dateOfServiceFrom>20140105</dateOfServiceFrom>
             <dateOfServiceTo>20140105</dateOfServiceTo>
@@ -1019,14 +1148,16 @@
             <typeOfServiceDescription>9 - Other Medical Services</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555500</claimNumber>
         </details>
         <details>
             <lineNumber>2</lineNumber>
             <dateOfServiceFrom>20140105</dateOfServiceFrom>
             <dateOfServiceTo>20140105</dateOfServiceTo>
             <procedureCodeDescription>A0428 - Ambulance Service, Basic Life Support, Non-Emergency Transport, (Bls)</procedureCodeDescription>
-            <modifier1Description>HR - FamilyCouple With Client Present</modifier1Description>
+            <modifier1Description>HR - Family/Couple With Client Present</modifier1Description>
             <modifier2Description></modifier2Description>
             <modifier3Description></modifier3Description>
             <modifier4Description></modifier4Description>
@@ -1038,7 +1169,9 @@
             <typeOfServiceDescription>9 - Other Medical Services</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555500</claimNumber>
         </details>
         <details>
             <lineNumber>3</lineNumber>
@@ -1057,10 +1190,13 @@
             <typeOfServiceDescription>9 - Other Medical Services</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555500</claimNumber>
         </details>
     </claims>
     <claims>
+        <claim>claim Header</claim>
         <claimNumber>2333444555200</claimNumber>
         <provider>No Information Available</provider>
         <providerBillingAddress></providerBillingAddress>
@@ -1076,8 +1212,10 @@
         </charges>
         <claimType>PartB</claimType>
         <diagnosisCode1>2163</diagnosisCode1>
+        <category>claim Header</category>
         <source>MyMedicare.gov</source>
         <details>
+            <details>Claim Lines for Claim Number</details>
             <lineNumber>1</lineNumber>
             <dateOfServiceFrom>20140105</dateOfServiceFrom>
             <dateOfServiceTo>20140105</dateOfServiceTo>
@@ -1094,10 +1232,13 @@
             <typeOfServiceDescription>1 - Medical Care</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555200</claimNumber>
         </details>
     </claims>
     <claims>
+        <claim>claim Header</claim>
         <claimNumber>2333444555300</claimNumber>
         <provider>No Information Available</provider>
         <providerBillingAddress></providerBillingAddress>
@@ -1114,8 +1255,10 @@
         <claimType>PartB</claimType>
         <diagnosisCode1>28521</diagnosisCode1>
         <diagnosisCode2>5854</diagnosisCode2>
+        <category>claim Header</category>
         <source>MyMedicare.gov</source>
         <details>
+            <details>Claim Lines for Claim Number</details>
             <lineNumber>1</lineNumber>
             <dateOfServiceFrom>20140105</dateOfServiceFrom>
             <dateOfServiceTo>20140105</dateOfServiceTo>
@@ -1132,7 +1275,9 @@
             <typeOfServiceDescription>1 - Medical Care</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555300</claimNumber>
         </details>
         <details>
             <lineNumber>2</lineNumber>
@@ -1151,7 +1296,9 @@
             <typeOfServiceDescription>2 - Surgery</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555300</claimNumber>
         </details>
         <details>
             <lineNumber>3</lineNumber>
@@ -1170,7 +1317,9 @@
             <typeOfServiceDescription>1 - Medical Care</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555300</claimNumber>
         </details>
         <details>
             <lineNumber>4</lineNumber>
@@ -1189,7 +1338,9 @@
             <typeOfServiceDescription>1 - Medical Care</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555300</claimNumber>
         </details>
         <details>
             <lineNumber>5</lineNumber>
@@ -1208,10 +1359,13 @@
             <typeOfServiceDescription>1 - Medical Care</typeOfServiceDescription>
             <renderingProviderNo>PARTBPROV</renderingProviderNo>
             <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>2333444555300</claimNumber>
         </details>
     </claims>
     <claims>
+        <claim>claim Header</claim>
         <claimNumber>2333444555400</claimNumber>
         <provider>No Information Available</provider>
         <providerBillingAddress></providerBillingAddress>
@@ -1228,8 +1382,10 @@
         <claimType>PartB</claimType>
         <diagnosisCode1>9593</diagnosisCode1>
         <diagnosisCode2>E8889</diagnosisCode2>
+        <category>claim Header</category>
         <source>MyMedicare.gov</source>
         <details>
+            <details>Claim Lines for Claim Number</details>
             <lineNumber>1</lineNumber>
             <dateOfServiceFrom>20140105</dateOfServiceFrom>
             <dateOfServiceTo>20140105</dateOfServiceTo>
@@ -1245,7 +1401,10 @@
             <placeOfServiceDescription>12 - Home</placeOfServiceDescription>
             <typeOfServiceDescription>R - Rental of DME</typeOfServiceDescription>
             <renderingProviderNo>DMEPROVIDR</renderingProviderNo>
+            <renderingProviderNpi></renderingProviderNpi>
+            <category>Claim Lines for Claim Number</category>
             <source>MyMedicare.gov</source>
+            <claimNumber>11122233310000</claimNumber>
         </details>
     </claims>
-</blueButtonData>
+</root>

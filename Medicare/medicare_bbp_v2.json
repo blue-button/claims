@@ -21,9 +21,15 @@
             "https://myMedicare.gov",
             "**********CONFIDENTIAL***********",
             "Produced by the Blue Button (v2.0)"
-        ]
+        ],
+        "header": {
+            "header": "MYMEDICARE.GOV PERSONAL HEALTH INFORMATION"
+        }
     },
     "patient": {
+        "patient": {
+            "patient": "Demographic"
+        },
         "source": "MyMedicare.gov",
         "name": "JOHN DOE",
         "dateOfBirth": "19100101",
@@ -46,10 +52,8 @@
     },
     "emergencyContact": [
         {
-            "source": "patient",
-            "contactName": {
-                "contactName": "Billy Bigelow2"
-            },
+            "emergencyContact": "Emergency Contact",
+            "contactName": "Billy Bigelow2",
             "address": {
                 "addressType": "Home",
                 "addressLine1": "1234 Carnival Lane",
@@ -64,7 +68,9 @@
                 "home": "",
                 "work": ""
             },
-            "emailAddress": ""
+            "emailAddress": "",
+            "category": "Emergency Contact",
+            "source": "patient"
         },
         {
             "contactName": "Enoch Snow",
@@ -83,44 +89,51 @@
                 "work": ""
             },
             "emailAddress": "",
+            "category": "Emergency Contact",
             "source": "patient"
         }
     ],
     "medicalConditions": [
         {
-            "source": "patient",
+            "medicalConditions": "Self Reported Medical Conditions",
             "conditionName": "Allergies",
             "medicalConditionStartDate": "20130129",
-            "medicalConditionEndDate": ""
+            "medicalConditionEndDate": "",
+            "category": "Self Reported Medical Conditions",
+            "source": "patient"
         },
         {
             "conditionName": "Arthritis",
             "medicalConditionStartDate": "19600801",
             "medicalConditionEndDate": "19801231",
+            "category": "Self Reported Medical Conditions",
             "source": "patient"
         },
         {
             "conditionName": "Broken Wrist",
             "medicalConditionStartDate": "19100206",
             "medicalConditionEndDate": "20130206",
+            "category": "Self Reported Medical Conditions",
             "source": "patient"
         },
         {
             "conditionName": "Other",
             "medicalConditionStartDate": "20110201",
             "medicalConditionEndDate": "",
+            "category": "Self Reported Medical Conditions",
             "source": "patient"
         },
         {
             "conditionName": "Other",
             "medicalConditionStartDate": "20120228",
             "medicalConditionEndDate": "",
+            "category": "Self Reported Medical Conditions",
             "source": "patient"
         }
     ],
     "Allergies": [
         {
-            "source": "patient",
+            "Allergies": "Self Reported Allergies",
             "allergyName": "Antibotic",
             "type": "Drugs",
             "reaction": "",
@@ -132,7 +145,9 @@
             "lastTreatmentDate": "",
             "comments": [
                 ""
-            ]
+            ],
+            "category": "Self Reported Allergies",
+            "source": "patient"
         },
         {
             "allergyName": "Corn",
@@ -147,6 +162,7 @@
             "comments": [
                 ""
             ],
+            "category": "Self Reported Allergies",
             "source": "patient"
         },
         {
@@ -162,6 +178,7 @@
             "comments": [
                 ""
             ],
+            "category": "Self Reported Allergies",
             "source": "patient"
         },
         {
@@ -177,62 +194,73 @@
             "comments": [
                 ""
             ],
+            "category": "Self Reported Allergies",
             "source": "patient"
         }
     ],
     "ImplantableDevices": [
         {
-            "source": "patient",
+            "ImplantableDevices": "Self Reported Implantable Device",
             "deviceName": "COronary stent",
-            "dateImplanted": "20051127"
+            "dateImplanted": "20051127",
+            "category": "Self Reported Implantable Device",
+            "source": "patient"
         },
         {
             "deviceName": "Knee replacement",
             "dateImplanted": "20140202",
+            "category": "Self Reported Implantable Device",
             "source": "patient"
         },
         {
             "deviceName": "Pace maker",
             "dateImplanted": "20120228",
+            "category": "Self Reported Implantable Device",
             "source": "patient"
         },
         {
             "deviceName": "foot",
             "dateImplanted": "19840909",
+            "category": "Self Reported Implantable Device",
             "source": "patient"
         },
         {
             "deviceName": "hearing aid",
             "dateImplanted": "20130101",
+            "category": "Self Reported Implantable Device",
             "source": "patient"
         },
         {
             "deviceName": "nov20",
             "dateImplanted": "20071215",
+            "category": "Self Reported Implantable Device",
             "source": "patient"
         }
     ],
     "Immunizations": [
         {
-            "source": "patient",
+            "Immunizations": "Self Reported Immunizations",
             "immunizationName": "shingles",
             "dateAdministered": "20100203",
             "method": "Injection",
             "wereYouVaccinatedInTheUs": "Yes",
             "comments": [
                 ""
-            ]
+            ],
+            "category": "Self Reported Immunizations",
+            "source": "patient"
         },
         {
             "booster1Date": "20110204",
             "booster2Date": "20120406",
             "booster3Date": "",
+            "category": "Self Reported Immunizations",
             "source": "patient"
         }
     ],
     "Labs": [
         {
-            "source": "patient",
+            "Labs": "Self Reported Labs and Tests",
             "testLabType": "Test",
             "dateTaken": "20130102",
             "administeredBy": "Inova",
@@ -241,19 +269,23 @@
             "results": "",
             "comments": [
                 ""
-            ]
+            ],
+            "category": "Self Reported Labs and Tests",
+            "source": "patient"
         }
     ],
     "vitals": [
         {
-            "source": "patient",
+            "vitals": "Self Reported Vital Statistics",
             "vitalStatisticType": "Glucose",
             "date": "20080207",
             "time": "12:00 AM",
             "readingValue": "322",
             "comments": [
                 ""
-            ]
+            ],
+            "category": "Self Reported Vital Statistics",
+            "source": "patient"
         },
         {
             "vitalStatisticType": "Glucose",
@@ -263,6 +295,7 @@
             "comments": [
                 "fwrqwrgreg"
             ],
+            "category": "Self Reported Vital Statistics",
             "source": "patient"
         },
         {
@@ -273,6 +306,7 @@
             "comments": [
                 "rwrtrt"
             ],
+            "category": "Self Reported Vital Statistics",
             "source": "patient"
         },
         {
@@ -283,6 +317,7 @@
             "comments": [
                 ""
             ],
+            "category": "Self Reported Vital Statistics",
             "source": "patient"
         },
         {
@@ -293,6 +328,7 @@
             "comments": [
                 ""
             ],
+            "category": "Self Reported Vital Statistics",
             "source": "patient"
         },
         {
@@ -303,6 +339,7 @@
             "comments": [
                 "wwqrgtrt"
             ],
+            "category": "Self Reported Vital Statistics",
             "source": "patient"
         },
         {
@@ -313,6 +350,7 @@
             "comments": [
                 "fwqerqwr"
             ],
+            "category": "Self Reported Vital Statistics",
             "source": "patient"
         },
         {
@@ -323,11 +361,13 @@
             "comments": [
                 ""
             ],
+            "category": "Self Reported Vital Statistics",
             "source": "patient"
         }
     ],
     "familyHistory": [
         {
+            "familyHistory": "Family Medical History",
             "source": "patient",
             "familyMember": "Daughter",
             "type": "Maternal",
@@ -338,17 +378,20 @@
                 {
                     "type": "type",
                     "description": "description",
+                    "category": "Family Medical History",
                     "source": "patient"
                 },
                 {
                     "type": "type",
                     "description": "description",
+                    "category": "Family Medical History",
                     "source": "patient"
                 },
                 {
                     "description": "description"
                 }
-            ]
+            ],
+            "category": "Family Medical History"
         },
         {
             "familyMember": "Brother",
@@ -360,6 +403,7 @@
                 {
                     "type": "type",
                     "description": "description",
+                    "category": "Family Medical History",
                     "source": "patient"
                 },
                 {
@@ -372,256 +416,300 @@
     ],
     "medications": [
         {
-            "source": "patient",
+            "medications": "Drugs",
             "drugName": "Abacavir TAB 300MG",
             "supply": "60 Every 1 Month",
-            "origDrugEntry": "Abacavir"
+            "origDrugEntry": "Abacavir",
+            "category": "Drugs",
+            "source": "patient"
         },
         {
             "drugName": "Abilify Maintena INJ 300MG",
             "supply": "1 X Vial Every 1 Month",
             "origDrugEntry": "Abilify Maintena",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate TAB 10MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Amlodipine Besylate",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate TAB 2.5MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Amlodipine Besylate",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate TAB 5MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Amlodipine Besylate",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate/Atorvastatin Calcium TAB 10-10MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Amlodipine Besylate/Atorvastatin Calcium",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate/Atorvastatin Calcium TAB 10-20MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Amlodipine Besylate/Atorvastatin Calcium",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate/Atorvastatin Calcium TAB 10-40MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Amlodipine Besylate/Atorvastatin Calcium",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate/Atorvastatin Calcium TAB 10-80MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Amlodipine Besylate/Atorvastatin Calcium",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate/Atorvastatin Calcium TAB 5-10MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Caduet",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Amlodipine Besylate/Atorvastatin Calcium TAB 5-80MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Amlodipine Besylate/Atorvastatin Calcium",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Androgel Pump GEL 1.62%",
             "supply": "2 X 75GM Pump Bottle (sold in a package of 1 pump bottle) Every 1 Month",
             "origDrugEntry": "Androgel Pump",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Drospirenone/Ethinyl Estradiol TAB 3-0.03MG",
             "supply": "28 Every 1 Month",
             "origDrugEntry": "Yasmin 28",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Gabapentin CAP 100MG",
             "supply": "90 Every 1 Month",
             "origDrugEntry": "Gabapentin",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Gabapentin SOL 250/5ML",
             "supply": "1 X 470ML Bottle Every 1 Month",
             "origDrugEntry": "Gabapentin",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Jakafi TAB 10MG",
             "supply": "60 Every 1 Month",
             "origDrugEntry": "Jakafi",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Losartan Potassium/Hydrochlorothiazide TAB 100-25",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Losartan Potassium/Hydrochlorothiazide",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Montelukast Sodium TAB 10MG",
             "supply": "90 Every 3 Month",
             "origDrugEntry": "Montelukast Sodium",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Omeprazole CAP 20MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Omeprazole",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Rabavert INJ",
             "supply": "2 X Vial (sold in a package of 2) Every 12 Month",
             "origDrugEntry": "Rabavert",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Tabloid TAB 40MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Tabloid",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Vagifem TAB 10MCG",
             "supply": "8 Every 1 Month",
             "origDrugEntry": "Vagifem",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Zafirlukast TAB 20MG",
             "supply": "60 Every 1 Month",
             "origDrugEntry": "Zafirlukast",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Zaleplon CAP 10MG",
             "supply": "30 Every 1 Month",
             "origDrugEntry": "Zaleplon",
+            "category": "Drugs",
             "source": "patient"
         },
         {
             "drugName": "Zaltrap INJ 100/4ML",
             "supply": "1 X 4ML Vial Every 1 Month",
             "origDrugEntry": "Zaltrap",
+            "category": "Drugs",
             "source": "patient"
         }
     ],
     "preventiveServices": [
         {
-            "source": "MyMedicare.gov",
+            "preventiveServices": "Preventive Services",
             "description": "ABDOMINAL AORTIC ANEURYSM",
             "nextEligibleDate": "20140201",
-            "lastDateOfService": ""
+            "lastDateOfService": "",
+            "category": "Preventive Services",
+            "source": "MyMedicare.gov"
         },
         {
             "description": "CARDIOVASCULAR",
             "nextEligibleDate": "20140201",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "PPV",
             "nextEligibleDate": "20140201",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "PROSTATE",
             "nextEligibleDate": "20140201",
             "lastDateOfService": "20120326",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "PSA",
             "nextEligibleDate": "20140201",
             "lastDateOfService": "20120326",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "ANNUAL WELLNESS VISIT",
             "nextEligibleDate": "20150201",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "ALCOHOL MISUSE SCREENING",
             "nextEligibleDate": "",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "CARDIOVASCULAR DISEASE (BEHAVIORAL THERAPY)",
             "nextEligibleDate": "",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "COLORECTAL",
             "nextEligibleDate": "",
             "lastDateOfService": "20110421",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "DEPRESSION SCREENING",
             "nextEligibleDate": "",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "DIABETES",
             "nextEligibleDate": "",
             "lastDateOfService": "20120521",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "HIGH INTENSITY BEHAVIORAL COUNSELING",
             "nextEligibleDate": "",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "OBESITY COUNSELING",
             "nextEligibleDate": "",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "PHYSICAL",
             "nextEligibleDate": "",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         },
         {
             "description": "SMOKING CESSATION (counseling to stop smoking)",
             "nextEligibleDate": "",
             "lastDateOfService": "",
+            "category": "Preventive Services",
             "source": "MyMedicare.gov"
         }
     ],
     "providers": [
         {
-            "source": "patient",
+            "providers": "Providers",
             "providerName": "ANGELO SCOTTI",
             "providerAddress": "180 WHITE RD LITTLE SILVER, NJ 07739",
             "type": "Physician & Other Healthcare Professional",
             "specialty": "",
-            "medicareProvider": "Yes"
+            "medicareProvider": "Yes",
+            "category": "Providers",
+            "source": "patient"
         },
         {
             "providerName": "DOUGLAS KNOX",
@@ -629,6 +717,7 @@
             "type": "Physician & Other Healthcare Professional",
             "specialty": "",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -637,6 +726,7 @@
             "type": "Physician & Other Healthcare Professional",
             "specialty": "Cardiac Electrophysiology,Cardiovascular Disease (Cardiology)",
             "medicareProvider": "May Accept Medicare",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -645,6 +735,7 @@
             "type": "Physician & Other Healthcare Professional",
             "specialty": "",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -653,6 +744,7 @@
             "type": "Physician & Other Healthcare Professional",
             "specialty": "",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -661,6 +753,7 @@
             "type": "Physician & Other Healthcare Professional",
             "specialty": "Addiction Medicine",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -669,6 +762,7 @@
             "type": "Dialysis Facility",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -677,6 +771,7 @@
             "type": "Dialysis Facility",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -685,6 +780,7 @@
             "type": "Dialysis Facility",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -693,6 +789,7 @@
             "type": "Nursing Home",
             "specialty": "",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -701,6 +798,7 @@
             "type": "Hospital",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -709,6 +807,7 @@
             "type": "Home Health",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -717,6 +816,7 @@
             "type": "Nursing Home",
             "specialty": "",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -725,6 +825,7 @@
             "type": "Nursing Home",
             "specialty": "",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -733,6 +834,7 @@
             "type": "Hospital",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -741,6 +843,7 @@
             "type": "Hospital",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -749,6 +852,7 @@
             "type": "Nursing Home",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -757,6 +861,7 @@
             "type": "Hospital",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -765,6 +870,7 @@
             "type": "Dialysis Facility",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -773,6 +879,7 @@
             "type": "Dialysis Facility",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -781,6 +888,7 @@
             "type": "Dialysis Facility",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -789,6 +897,7 @@
             "type": "Hospital",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -797,6 +906,7 @@
             "type": "Dialysis Facility",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -805,6 +915,7 @@
             "type": "Dialysis Facility",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -813,6 +924,7 @@
             "type": "Nursing Home",
             "specialty": "",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -821,6 +933,7 @@
             "type": "Home Health",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -829,6 +942,7 @@
             "type": "Home Health",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -837,6 +951,7 @@
             "type": "Nursing Home",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -845,6 +960,7 @@
             "type": "Nursing Home",
             "specialty": "",
             "medicareProvider": "Yes",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -853,6 +969,7 @@
             "type": "Hospital",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         },
         {
@@ -861,83 +978,51 @@
             "type": "Hospital",
             "specialty": "",
             "medicareProvider": "Not Available",
+            "category": "Providers",
             "source": "patient"
         }
     ],
     "pharmacies": [
         {
-            "source": "patient",
+            "pharmacies": "Pharmacies",
             "pharmacyName": "Castleton Integrative Health 8208 Allisonville Rd Indianapolis, IN 46250",
-            "pharmacyPhone": "317-849-1222"
+            "pharmacyPhone": "317-849-1222",
+            "category": "Pharmacies",
+            "source": "patient"
         },
         {
             "pharmacyName": "Costco Pharmacy Indianapolis, IN 462506110 East 86th Street Castleton, IN 46250",
             "pharmacyPhone": "317-558-1452",
+            "category": "Pharmacies",
             "source": "patient"
         }
     ],
     "insurance": [
         {
-            "source": "MyMedicare.gov",
+            "insurance": "Plans",
             "contractIdPlanId": "S1111/801",
             "planPeriod": "12/01/2012 - current",
             "planName": "",
             "marketingName": "",
             "planAddress": "",
-            "planType": "11 - Medicare Prescription Drug Plan"
-        },
-        {
-            "category": {
-                "category": "11 - Medicare Prescription Drug Plan"
-            },
-            "startDate": [],
-            "endDate": [],
-            "name": [],
-            "contractIdPlanId": [],
-            "type": [],
-            "insurer": [],
-            "marketingName": [],
-            "address": [],
+            "planType": "11 - Medicare Prescription Drug Plan",
+            "category": "Plans",
             "source": "MyMedicare.gov"
         },
         {
-            "category": {
-                "category": "MyMedicare.gov"
-            },
-            "startDate": [],
-            "mspType": [],
-            "endDate": [],
-            "name": [],
-            "contractIdPlanId": [],
-            "type": [],
-            "insurer": [],
-            "marketingName": [],
-            "address": [],
-            "source": "MyMedicare.gov"
-        },
-        {
-            "category": {
-                "category": "MyMedicare.gov"
-            },
-            "startDate": [],
-            "endDate": [],
-            "name": [],
-            "contractIdPlanId": [],
-            "type": [],
-            "address": [],
-            "marketingName": [],
             "mspType": "",
             "policyNumber": "30002",
             "insurerName": "UNITEDHEALTH GROUP",
             "insurerAddress": "601 OFFICE CENTER DRIVE FORT WASHINGTON, PA 19034",
             "effectiveDate": "19841001",
             "terminationDate": "",
+            "category": "Other Insurance",
             "source": "MyMedicare.gov"
         }
     ],
     "claims": [
         {
-            "source": "MyMedicare.gov",
+            "claims": "Claim Summary",
             "claimNumber": "11122233330000",
             "provider": "No Information Available",
             "providerBillingAddress": "",
@@ -954,9 +1039,11 @@
             "claimType": "DME",
             "diagnosisCode1": "32723",
             "diagnosisCode2": "78051",
+            "category": "Claim Summary",
+            "source": "MyMedicare.gov",
             "details": [
                 {
-                    "details": [],
+                    "details": "Claim Lines for Claim Number",
                     "lineNumber": "1",
                     "dateOfServiceFrom": "20140105",
                     "dateOfServiceTo": "20140105",
@@ -973,12 +1060,14 @@
                     "typeOfServiceDescription": "R - Rental of DME",
                     "renderingProviderNo": "DMEPROVIDR",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "11122233330000"
                 }
             ]
         },
         {
-            "claim": [],
+            "claim": "claim Header",
             "claimNumber": "11122233320000",
             "provider": "No Information Available",
             "providerBillingAddress": "",
@@ -995,10 +1084,11 @@
             "claimType": "DME",
             "diagnosisCode1": "32723",
             "diagnosisCode2": "78051",
+            "category": "claim Header",
             "source": "MyMedicare.gov",
             "details": [
                 {
-                    "details": [],
+                    "details": "Claim Lines for Claim Number",
                     "lineNumber": "1",
                     "dateOfServiceFrom": "20140105",
                     "dateOfServiceTo": "20140105",
@@ -1015,12 +1105,14 @@
                     "typeOfServiceDescription": "R - Rental of DME",
                     "renderingProviderNo": "DMEPROVIDR",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "11122233320000"
                 }
             ]
         },
         {
-            "claim": [],
+            "claim": "claim Header",
             "claimNumber": "2333444555100",
             "provider": "No Information Available",
             "providerBillingAddress": "",
@@ -1039,10 +1131,11 @@
             "diagnosisCode2": "7241",
             "diagnosisCode3": "7393",
             "diagnosisCode4": "7391",
+            "category": "claim Header",
             "source": "MyMedicare.gov",
             "details": [
                 {
-                    "details": [],
+                    "details": "Claim Lines for Claim Number",
                     "lineNumber": "1",
                     "dateOfServiceFrom": "20140105",
                     "dateOfServiceTo": "20140105",
@@ -1059,7 +1152,9 @@
                     "typeOfServiceDescription": "1 - Medical Care",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555100"
                 },
                 {
                     "lineNumber": "2",
@@ -1078,12 +1173,14 @@
                     "typeOfServiceDescription": "1 - Medical Care",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555100"
                 }
             ]
         },
         {
-            "claim": [],
+            "claim": "claim Header",
             "claimNumber": "2333444555500",
             "provider": "No Information Available",
             "providerBillingAddress": "",
@@ -1099,10 +1196,11 @@
             },
             "claimType": "PartB",
             "diagnosisCode1": "70700",
+            "category": "claim Header",
             "source": "MyMedicare.gov",
             "details": [
                 {
-                    "details": [],
+                    "details": "Claim Lines for Claim Number",
                     "lineNumber": "1",
                     "dateOfServiceFrom": "20140105",
                     "dateOfServiceTo": "20140105",
@@ -1119,7 +1217,9 @@
                     "typeOfServiceDescription": "9 - Other Medical Services",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555500"
                 },
                 {
                     "lineNumber": "2",
@@ -1138,7 +1238,9 @@
                     "typeOfServiceDescription": "9 - Other Medical Services",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555500"
                 },
                 {
                     "lineNumber": "3",
@@ -1157,12 +1259,14 @@
                     "typeOfServiceDescription": "9 - Other Medical Services",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555500"
                 }
             ]
         },
         {
-            "claim": [],
+            "claim": "claim Header",
             "claimNumber": "2333444555200",
             "provider": "No Information Available",
             "providerBillingAddress": "",
@@ -1178,10 +1282,11 @@
             },
             "claimType": "PartB",
             "diagnosisCode1": "2163",
+            "category": "claim Header",
             "source": "MyMedicare.gov",
             "details": [
                 {
-                    "details": [],
+                    "details": "Claim Lines for Claim Number",
                     "lineNumber": "1",
                     "dateOfServiceFrom": "20140105",
                     "dateOfServiceTo": "20140105",
@@ -1198,12 +1303,14 @@
                     "typeOfServiceDescription": "1 - Medical Care",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555200"
                 }
             ]
         },
         {
-            "claim": [],
+            "claim": "claim Header",
             "claimNumber": "2333444555300",
             "provider": "No Information Available",
             "providerBillingAddress": "",
@@ -1220,10 +1327,11 @@
             "claimType": "PartB",
             "diagnosisCode1": "28521",
             "diagnosisCode2": "5854",
+            "category": "claim Header",
             "source": "MyMedicare.gov",
             "details": [
                 {
-                    "details": [],
+                    "details": "Claim Lines for Claim Number",
                     "lineNumber": "1",
                     "dateOfServiceFrom": "20140105",
                     "dateOfServiceTo": "20140105",
@@ -1240,7 +1348,9 @@
                     "typeOfServiceDescription": "1 - Medical Care",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555300"
                 },
                 {
                     "lineNumber": "2",
@@ -1259,7 +1369,9 @@
                     "typeOfServiceDescription": "2 - Surgery",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555300"
                 },
                 {
                     "lineNumber": "3",
@@ -1278,7 +1390,9 @@
                     "typeOfServiceDescription": "1 - Medical Care",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555300"
                 },
                 {
                     "lineNumber": "4",
@@ -1297,7 +1411,9 @@
                     "typeOfServiceDescription": "1 - Medical Care",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555300"
                 },
                 {
                     "lineNumber": "5",
@@ -1316,12 +1432,14 @@
                     "typeOfServiceDescription": "1 - Medical Care",
                     "renderingProviderNo": "PARTBPROV",
                     "renderingProviderNpi": "",
-                    "source": "MyMedicare.gov"
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "2333444555300"
                 }
             ]
         },
         {
-            "claim": [],
+            "claim": "claim Header",
             "claimNumber": "2333444555400",
             "provider": "No Information Available",
             "providerBillingAddress": "",
@@ -1338,10 +1456,11 @@
             "claimType": "PartB",
             "diagnosisCode1": "9593",
             "diagnosisCode2": "E8889",
+            "category": "claim Header",
             "source": "MyMedicare.gov",
             "details": [
                 {
-                    "details": [],
+                    "details": "Claim Lines for Claim Number",
                     "lineNumber": "1",
                     "dateOfServiceFrom": "20140105",
                     "dateOfServiceTo": "20140105",
@@ -1357,7 +1476,10 @@
                     "placeOfServiceDescription": "12 - Home",
                     "typeOfServiceDescription": "R - Rental of DME",
                     "renderingProviderNo": "DMEPROVIDR",
-                    "source": "MyMedicare.gov"
+                    "renderingProviderNpi": "",
+                    "category": "Claim Lines for Claim Number",
+                    "source": "MyMedicare.gov",
+                    "claimNumber": "11122233310000"
                 }
             ]
         }
