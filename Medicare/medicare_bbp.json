@@ -1,0 +1,931 @@
+{
+  "header":{"title": "MyMedicare.gov Personal Health Information",
+            "languageCode": "code=\"en-US\"",
+            "versionNumber": {"value": "3"},
+            "effectiveTime": {"value": "20150210171504+0500"},
+            "confidentialityCode": {"code": "N",
+                                    "codeSystem": "2.16.840.1.113883.5.25"},
+            "originator": "MyMedicare.gov"
+            },
+  "patient": {"name": "Ellen Harrison Lu",
+              "firstName": "Ellen",
+              "middleName": "Harrison",
+              "lastName": "Lu",
+              "dateOfBirth": "19100101",
+              "address":{"addressLine1": "8115 Knuee Road",
+                         "addressLine2": "Mailpoint INA1-AF-16",
+                         "city": "Indianapolis",
+                         "state": "IN",
+                         "zip": "46250"
+                        },
+              "patientIdentifier": "W1234123456",
+              "phone": [
+                        "215-555-0684"],
+              "email": "testUserFh@gmail.com",
+
+              "medicare": {
+                           "partAEffectiveDate": "19850103",
+                           "partBEffectiveDate": "19850104"
+                          },
+              "source": "medicare.gov"
+              },
+  "emergencyContact": [
+          {"contactName": "Billy B Bigelow",
+            "firstName": "Billy",
+            "middleName": "B",
+            "lastName": "Bigelow",
+            "address": {
+              "addressType": "Home",
+              "addressLine1": "1234 Carnival Lane",
+              "addressLine2": "Apt B",
+              "city": "Lobster Bay",
+              "state": "ME",
+              "zip": "11112"
+              },
+            "relationship": "Friend",
+            "phone": {
+                      "home": "123-456-7890",
+                      "work": "123-456-7891",
+                      "mobile": "123-456-7892"
+                     },
+            "emailAddress": "billy.bigelow@example.com",
+            "source": "patient"
+          },
+          {"contactName": "Enoch C Snow",
+            "firstName": "Enoch",
+            "middleName": "C",
+            "lastName": "Snow",
+            "address": {
+              "addressType": "Home",
+              "addressLine1": "2345 Fish Head Cove",
+              "addressLine2": "C",
+              "city": "Lobster Bay",
+              "state": "ME",
+              "zip": "11112"
+              },
+            "relationship": "Friend",
+            "phone": {
+                      "home": "123-456-7890",
+                      "work": "123-456-7891",
+                      "mobile": "123-456-7892"
+                     },
+            "emailAddress": "esnoww@example.com",
+            "source": "patient"
+          }
+  ],
+  "medicalConditions": [
+          {"name": "Allergies",
+            "start": "20130129",
+            "end": "",
+            "source": "patient"
+          },
+          {"name": "Arthritis",
+            "start": "19600108",
+            "end": "19801231",
+            "source": "patient"
+          },
+          {"name": "Broken Wrist",
+
+            "start": "19100602",
+            "end": "19101202",
+            "source": "patient"
+          },
+          {"name": "Other",
+            "start": "20110102",
+            "end": "",
+            "source": "patient"
+          },
+          {"name": "Other",
+            "start": "20120228",
+            "end": "",
+            "source": "patient"
+          }
+  ],
+  "allergies": [
+          {"name": "Antibiotic",
+            "type": "drugs",
+            "reaction": [],
+            "severity": [],
+            "diagnosed": [],
+            "treatment": [],
+            "firstEpisodeDate": "",
+            "lastEpisodeDate": "",
+            "lastTreatmentDate": "",
+            "comments": [],
+            "source": "patient"
+          },
+          {"name": "Corn",
+            "type": "Food",
+            "reaction": "Blisters",
+            "severity": "Mild",
+            "diagnosed": "Yes",
+            "treatment": "Other",
+            "firstEpisodeDate": "",
+            "lastEpisodeDate": "",
+            "lastTreatmentDate": "",
+            "comments": [],
+            "source": "patient"
+          },
+          {"name": "Milk",
+            "type": "Food",
+            "reaction": "Anaphylaxis",
+            "severity": "Severe",
+            "diagnosed": "Yes",
+            "treatment": "Epinephrine (Epi-Pen)",
+            "firstEpisodeDate": "19850321",
+            "lastEpisodeDate": "20120331",
+            "lastTreatmentDate": "20120331",
+            "comments": [],
+            "source": "patient"
+          },
+          {"name": "Other - other",
+            "type": "Other - other",
+            "reaction": [],
+            "severity": [],
+            "diagnosed": [],
+            "treatment": [],
+            "firstEpisodeDate": "",
+            "lastEpisodeDate": "",
+            "lastTreatmentDate": "",
+            "comments": [],
+            "source": "patient"
+          }
+  ],
+  "implantableDevices": [
+          {"name": "Coronary Stent",
+            "implantedDate": "20051127",
+            "source": "patient"
+          },
+          {"name": "Knee replacement",
+            "implantedDate": "20140202",
+            "source": "patient"
+          },
+          {"name": "Pace maker",
+            "implantedDate": "20120228",
+            "source": "patient"
+          },
+          {"name": "Foot",
+            "implantedDate": "19840909",
+            "source": "patient"
+          },
+          {"name": "Hearing aid",
+            "implantedDate": "20130101",
+            "source": "patient"
+          },
+          {"name": "Nov20",
+            "implantedDate": "20071215",
+            "source": "patient"
+          }
+  ],
+  "immunizations": [
+          {"name": "Shingles",
+            "administeredDate": "20100302",
+            "method": "Injection",
+            "vaccinationInUsa": "Yes",
+            "Comments": [],
+            "boosters": [
+                ["20110402"],
+                ["20120604"],
+                [""]
+            ],
+            "source": "patient"
+          }
+  ],
+  "labs": [
+        {"type": "Test",
+          "date": "20130102",
+          "administeredBy": "Inova",
+          "requestingDoctor": "Dr. John Doe",
+          "reasonRequested": [],
+          "results": [],
+          "comments": [],
+          "source": "patient"
+        }
+  ],
+  "vitals": [
+        {"type": "Glucose",
+          "date": "20080702",
+          "time": "12:00 AM",
+          "readingValue": "322",
+          "comments": [],
+          "source": "patient"
+        },
+        {"type": "Glucose",
+          "date": "20090403",
+          "time": "12:02 PM",
+          "readingValue": "24",
+          "comments": "a comment",
+          "source": "patient"
+        },
+        {"type": "Glucose",
+          "date": "20090514",
+          "time": "12:17 PM",
+          "readingValue": "134",
+          "comments": "another comment",
+          "source": "patient"
+        },
+        {"type": "Otro - other",
+          "date": "19390101",
+          "time": "12:00 AM",
+          "readingValue": "other",
+          "comments": [],
+          "source": "patient"
+        },
+        {"type": "Pulse",
+          "date": "20130613",
+          "time": "12:00 AM",
+          "readingValue": "333",
+          "comments": [],
+          "source": "patient"
+        },
+        {"type": "Pulse",
+          "date": "20110302",
+          "time": "12:00 AM",
+          "readingValue": "80",
+          "comments": "commenting",
+          "source": "patient"
+        },
+        {"type": "Temperature",
+          "date": "20090605",
+          "time": "8:06 AM",
+          "readingValue": "100",
+          "comments": "commenting again",
+          "source": "patient"
+        },
+        {"type": "Temperature",
+          "date": "20080404",
+          "time": "9:02 AM",
+          "readingValue": "99",
+          "comments": "comments",
+          "source": "patient"
+        }
+  ],
+  "familyHistory": [
+        {"relationship": "Daughter",
+          "type": "Maternal",
+          "dateOfBirth": "19940101",
+          "dateOfDeath": "",
+          "age": "31",
+          "condition": [
+              {"type": "Allergy",
+                "description": "Dyes"
+              },
+              {"type": "Condition",
+                "description": "Diabetes, Type 2"
+              },
+              {"type": "Skin Cancer",
+                "description": []
+              }
+          ],
+          "source": "patient"
+        },
+        {"relationship": "Brother",
+          "type": "Paternal",
+          "dateOfBirth": "20120404",
+          "dateOfDeath": "",
+          "age": [],
+          "condition": [
+              {"type": "Allergy",
+                "description": "Chemotherapy"
+              },
+              {"type": "Condition",
+                "description": "Alzheimer's Disease"
+              }
+          ],
+          "source": "patient"
+        }
+  ],
+  "medications": [
+        {"name": "Abacavir TAB 300MG",
+          "supply": "60 Every 1 Month",
+          "originalDrug": "Abacavir",
+          "source": "patient"
+        },
+        {"name": "Abilify Maintena INJ 300MG",
+          "supply": "1 X Vial Every 1 Month",
+          "originalDrug": "Abilify Maintena",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate TAB 10MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Amlodipine Besylate",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate TAB 2.5MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Amlodipine Besylate",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate TAB 5MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Amlodipine Besylate",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate/Atorvastatin Calcium TAB 10-10MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Amlodipine Besylate/Atorvastatin Calcium",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate/Atorvastatin Calcium TAB 10-20MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Amlodipine Besylate/Atorvastatin Calcium",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate/Atorvastatin Calcium TAB 10-40MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Amlodipine Besylate/Atorvastatin Calcium",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate/Atorvastatin Calcium TAB 10-80MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Amlodipine Besylate/Atorvastatin Calcium",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate/Atorvastatin Calcium TAB 5-10MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Caduet",
+          "source": "patient"
+        },
+        {"name": "Amlodipine Besylate/Atorvastatin Calcium TAB 5-80MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Amlodipine Besylate/Atorvastatin Calcium",
+          "source": "patient"
+        },
+        {"name": "Androgel Pump GEL 1.62%",
+          "supply": "2 X 75GM Pump Bottle (sold in a package of 1 pump bottle) Every 1 Month",
+          "originalDrug": "Androgel Pump",
+          "source": "patient"
+        },
+        {"name": "Drospirenone/Ethinyl Estradiol TAB 3-0.03MG",
+          "supply": "28 Every 1 Month",
+          "originalDrug": "Yasmin 28",
+          "source": "patient"
+        },
+        {"name": "Gabapentin CAP 100MG",
+          "supply": "90 Every 1 Month",
+          "originalDrug": "Gabapentin",
+          "source": "patient"
+        },
+        {"name": "Gabapentin SOL 250/5ML",
+          "supply": "1 X 470ML Bottle Every 1 Month",
+          "originalDrug": "Gabapentin",
+          "source": "patient"
+        },
+        {"name": "Jakafi TAB 10MG",
+          "supply": "60 Every 1 Month",
+          "originalDrug": "Jakafi",
+          "source": "patient"
+        },
+        {"name": "Losartan Potassium/Hydrochlorothiazide TAB 100-25",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Losartan Potassium/Hydrochlorothiazide",
+          "source": "patient"
+        },
+        {"name": "Montelukast Sodium TAB 10MG",
+          "supply": "90 Every 3 Month",
+          "originalDrug": "Montelukast Sodium",
+          "source": "patient"
+        },
+        {"name": "Omeprazole CAP 20MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Omeprazole",
+          "source": "patient"
+        },
+        {"name": "Rabavert INJ",
+          "supply": "2 X Vial (sold in a package of 2) Every 12 Month",
+          "originalDrug": "Rabavert",
+          "source": "patient"
+        },
+        {"name": "Tabloid TAB 40MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Tabloid",
+          "source": "patient"
+        },
+        {"name": "Vagifem TAB 10MCG",
+          "supply": "8 Every 1 Month",
+          "originalDrug": "Vagifem",
+          "source": "patient"
+        },
+        {"name": "Zafirlukast TAB 20MG",
+          "supply": "60 Every 1 Month",
+          "originalDrug": "Zafirlukast",
+          "source": "patient"
+        },
+        {"name": "Zaleplon CAP 10MG",
+          "supply": "30 Every 1 Month",
+          "originalDrug": "Zaleplon",
+          "source": "patient"
+        },
+        {"name": "Zaltrap INJ 100/4ML",
+          "supply": "1 X 4ML Vial Every 1 Month",
+          "originalDrug": "Zaltrap",
+          "source": "patient"
+        }
+  ],
+  "preventiveServices": [
+    {"description": "ABDOMINAL AORTIC ANEURYSM",
+      "nextEligibleDate": "20140201",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "CARDIOVASCULAR",
+      "nextEligibleDate": "20140201",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "PPV",
+      "nextEligibleDate": "20140201",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "PROSTATE",
+      "nextEligibleDate": "20140201",
+      "lastDateOfService": "20120326",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "PSA",
+      "nextEligibleDate": "20140201",
+      "lastDateOfService": "20120326",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "ANNUAL WELLNESS VISIT",
+      "nextEligibleDate": "20150201",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "ALCOHOL MISUSE SCREENING",
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "CARDIOVASCULAR DISEASE (BEHAVIORAL THERAPY)",
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "COLORECTAL",
+      "nextEligibleDate": "",
+      "lastDateOfService": "20110421",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "DEPRESSION SCREENING",
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "DIABETES",
+      "nextEligibleDate": "",
+      "lastDateOfService": "20120521",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "HIGH INTENSITY BEHAVIORAL COUNSELING",
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "OBESITY COUNSELING",
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "PHYSICAL",
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    },
+    {"description": "SMOKING CESSATION (counseling to stop smoking)",
+      "nextEligibleDate": "",
+      "lastDateOfService": "",
+      "source": "MyMedicare.gov"
+    }
+  ],
+  "providers": [
+    {"name": "ANGELO SCOTTI",
+      "address": {
+        "addressLine1": "180 WHITE RD",
+        "addressLine2": "",
+        "city": "LITTLE SILVER",
+        "state": "NJ",
+        "zip": "07739"
+        },
+      "type": "Physician and Other Healthcare Professional",
+      "specialty": [],
+      "medicareProvider": "Yes",
+      "source": "patient"
+    },
+    {"name": "DOUGLAS KNOX",
+      "address": {
+        "addressLine1": "1104 E 23RD ST",
+        "addressLine2": "",
+        "city": "LAWRENCE",
+        "state": "KS",
+        "zip": "66046"
+        },
+      "type": "Physician and Other Healthcare Professional",
+      "specialty": [],
+      "medicareProvider": "Yes",
+      "source": "patient"
+    },
+    {"name": "SIAMAK RASSADI",
+      "address": {
+        "addressLine1": "1331 N 7TH ST",
+        "addressLine2": "",
+        "city": "PHOENIX",
+        "state": "AZ",
+        "zip": "85006"
+        },
+      "type": "Physician and Other Healthcare Professional",
+      "specialty": "Cardiac Electrophysiology,Cardiovascular Disease (Cardiology)",
+      "medicareProvider": "May Accept Medicare",
+      "source": "patient"
+    },
+    {"name": "PETER LEAVITT",
+      "address": {
+        "addressLine1": "2965 NECONNERS AVE",
+        "addressLine2": "",
+        "city": "BEND",
+        "state": "OR",
+        "zip": "97701"
+      },
+      "type": "Physician and Other Healthcare Professional",
+      "specialty": "",
+      "medicareProvider": "Yes",
+      "source": "patient"
+    },
+    {"name": "JOHN KENNEDY",
+      "address": {
+        "addressLine1": "8888 KEYSTONE XING",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46240"
+      },
+      "type": "Physician and Other Healthcare Professional",
+      "specialty": [],
+      "medicareProvider": "Yes",
+      "source": "patient"
+    },
+    {"name": "REBECCA KELLY",
+      "address": {
+        "addressLine1": "7250 CLEARVISTA DR",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46256"
+      },
+      "type": "Physician and Other Healthcare Professional",
+      "specialty": "Addiction Medicine",
+      "medicareProvider": "Yes",
+      "source": "patient"
+    },
+    {"name": "RILEY HOSPITAL - PEDS DIALYSIS",
+      "address": {
+        "addressLine1": "705 RILEY HOSPITAL DRIVE",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46202"
+      },
+      "type": "Dialysis Facility",
+      "specialty": [],
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    },
+    {"name": "FMC - SHADELAND STATION",
+      "address": {
+        "addressLine1": "7155 SHADELAND STATION",
+        "addressLine2": "STE 130",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46256"
+      },
+      "type": "Dialysis Facility",
+      "specialty": "Dialysis Facility",
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    },
+    {"name": "IU HEALTH - HOME DIALYSIS",
+      "address": {
+        "addressLine1": "8803 N. MERIDIAN ST.",
+        "addressLine2": "STE 150",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46260"
+      },
+      "type": "Dialysis Facility",
+      "specialty": [],
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    },
+    {"name": "MESA VISTA OF BOULDER",
+      "address": {
+        "addressLine1": "2121 MESA DRIVE",
+        "addressLine2": "",
+        "city": "BOULDER",
+        "state": "CO",
+        "zip": "80304"
+      },
+      "type": "Nursing Home",
+      "specialty": [],
+      "medicareProvider": "Yes",
+      "source": "patient"
+    },
+    {"name": "FAIRBANKS",
+      "address": {
+        "addressLine1": "8102 CLEARVISTA PARKWAY",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46256"
+      },
+      "type": "Hospital",
+      "specialty": [],
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    },
+    {"name": "ALLIANCE HOME HEALTH SERVICES INC",
+      "address": {
+        "addressLine1": "9615 N COLLEGE AVE",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46280"
+      },
+      "type": "Home Health",
+      "specialty": [],
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    },
+    {"name": "THE VIRGINIAN",
+      "address": {
+        "addressLine1": "9229 ARLINGTON BLVD",
+        "addressLine2": "",
+        "city": "FAIRFAX",
+        "state": "VA",
+        "zip": "22031"
+      },
+      "type": "Nursing Home",
+      "specialty": [],
+      "medicareProvider": "Yes",
+      "source": "patient"
+    },
+    {"name": "KINDRED TRANSITIONAL CARE AND REHAB-ALLISON POINTE",
+      "address": {
+        "addressLine1": "5226 E 82ND ST",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46250"
+      },
+      "type": "Nursing Home",
+      "specialty": [],
+      "medicareProvider": "Yes",
+      "source": "patient"
+    },
+    {"name": "INDIANA HEART HOSPITAL THE",
+      "address": {
+        "addressLine1": "8075 N SHADELAND AVE",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46250"
+      },
+      "type": "Hospital",
+      "specialty": [],
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    },
+    {"name": "COMMUNITY HOSPITAL NORTH",
+      "address": {
+        "addressLine1": "7150 CLEARVISTA DR",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46256"
+      },
+      "type": "Hospital",
+      "specialty": [],
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    },
+    {"name": "FORUM AT THE CROSSING",
+      "address": {
+        "addressLine1": "8505 WOODFIELD CROSSING BLVD",
+        "addressLine2": [],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46240"
+      },
+      "type": "Nursing Home",
+      "specialty": [],
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    },
+    {"name": [],
+      "address": {
+        "addressLine1": "",
+        "addressLine2": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      },
+      "type": "Physician and Other Healthcare Professional",
+      "specialty": [],
+      "medicareProvider": "Not Available",
+      "source": "patient"
+    }
+  ],
+  "pharmacies": [
+    {"pharmacyName": "Castleton Integrative Health",
+      "address": {
+        "addressLine1": "8208 Allisonville Rd",
+        "addressLine2": "",
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "zip": "46250"
+      },
+      "phone": "317-849-1222",
+      "source": "patient"
+    },
+    {"pharmacyName": "Costco Pharmacy Indianapolis, IN 462506110",
+      "address": {
+        "addressLine1": "East 86th Street",
+        "addressLine2":"",
+        "city": "Castleton",
+        "state": "IN",
+        "zip": "46250"
+      },
+      "phone": "317-558-1452",
+      "source": "patient"
+    }
+  ],
+  "insurance": [
+    {"category": "Medicare",
+      "mspType": [],
+      "contractId/PlanId": "S1111/801",
+      "startDate": "20120112",
+      "endDate": [],
+      "insurer": "Medicare",
+      "planName": [],
+      "marketingName": [],
+      "planAddress": [],
+      "type": "11 - Medicare Prescription Drug Plan",
+      "source": "MyMedicare.gov"
+    },
+    {"category": "Employer Subsidy",
+      "mspType": [],
+      "contractIdPlanId": [],
+      "startDate": [],
+      "endDate": [],
+      "insurer": [],
+      "name": [],
+      "marketingName": [],
+      "address": [],
+      "type": [],
+      "source": "MyMedicare.gov"
+    },
+    {"category": "Primary Insurance",
+      "mspType": [],
+      "contractIdPlanId": [],
+      "startDate": [],
+      "endDate": [],
+      "insurer": [],
+      "name": [],
+      "marketingName": [],
+      "address": [],
+      "type": [],
+      "source": "MyMedicare.gov"
+    },
+    {"category": "Other Insurance",
+      "mspType": [],
+      "contractIdPlanId": "30002",
+      "startDate": "19841001",
+      "endDate": [],
+      "insurer": "UNITEDHEALTH GROUP",
+      "name": [],
+      "marketingName": [],
+      "address": "601 OFFICE CENTER DRIVE FORT WASHINGTON, PA 19034",
+      "type": [],
+      "source": "MyMedicare.gov"
+    }
+  ],
+  "claims": [
+    {"claimNumber": "0210336239290",
+      "source": "MyMedicare.gov",
+      "type": "Part B",
+      "provider": {
+        "name": "Inova Health Services",
+        "providerId": "123456789",
+        "providerIdType": "National Provider ID",
+        "providerBillingAddress": "601 OFFICE CENTER DRIVE FORT WASHINGTON, PA 19034"
+      },
+      "date": {
+        "startDate": "20101102",
+        "endDate": "20101102"
+      },
+      "charges": {
+        "priceBilled": "1022.5",
+        "negotiatedPrice": "782.33",
+        "insurancePaid": "625.86",
+        "patientResponsibility": "156.47"
+      },
+      "service": {
+        "name": "Name of Service Provided",
+        "codeSystemName": "CPT",
+        "codeSystem": "2.16.840.1.113883.6.96",
+        "code": "28521"
+      },
+      "diagnoses": [
+        {"name": "Name of Condition",
+          "codeSystemName": "CPT",
+          "codeSystem": "2.16.840.1.113883.6.96",
+          "code": "28521"
+        },
+        {"name": "Name of Condition",
+          "codeSystemName": "CPT",
+          "codeSystem": "2.16.840.1.113883.6.96",
+          "code": "5854"
+        }
+      ],
+      "details": [
+        {"startDate": "20101102",
+          "endDate": "20101102",
+          "procedureCode": "A0428",
+          "procedureDescription": "Description of Procedure",
+          "modifiers": [
+            "Additional details",
+            "more information"
+          ],
+          "quantity": "1",
+          "priceBilled": "275.00",
+          "negotiatedPrice": "208.99",
+          "patientResponsibility": "66.01",
+          "placeOfServiceCode": "41",
+          "placeOfService": "Ambulance - Land",
+          "typeOfServiceCode": "9",
+          "typeOfService": "Other Medical Services",
+          "renderingProviderNumber": "Q335520003",
+          "renderingProviderNpi": "1023062544"
+        },
+        {"startDate": "20101102",
+          "endDate": "20101102",
+          "procedureCode": "A0428",
+          "procedureDescription": "Description of Procedure",
+          "modifiers": [
+            "Additional details"
+          ],
+          "quantity": "1",
+          "priceBilled": "275",
+          "negotiatedPrice": "208.99",
+          "patientResponsibility": "66.01",
+          "placeOfServiceCode": "41",
+          "placeOfService": "Ambulance - Land",
+          "typeOfServiceCode": "9",
+          "typeOfService": "Other Medical Services",
+          "renderingProviderNumber": "Q335520003",
+          "renderingProviderNpi": "1023062544"
+        },
+        {"startDate": "20101102",
+          "endDate": "20101102",
+          "procedureCode": "A0425",
+          "procedureDescription": "Description of Procedure",
+          "modifiers": [
+            "Additional details"
+          ],
+          "quantity": "44",
+          "priceBilled": "472.5",
+          "negotiatedPrice": "364.35",
+          "patientResponsibility": "108.15",
+          "placeOfServiceCode": "41",
+          "placeOfService": "Ambulance - Land",
+          "typeOfServiceCode": "9",
+          "typeOfService": "Other Medical Services",
+          "renderingProviderNumber": "Q335520003",
+          "renderingProviderNpi": "1023062544"
+        }
+      ]
+    },
+    {"claimNumber": "000000123456",
+      "source": "MyMedicare.gov",
+      "type": "Part D",
+      "pharmacy": {
+        "name": "Costco Pharmacy",
+        "providerId": "1234567891",
+        "providerIdType": "National Provider ID",
+        "providerBillingAddress": "601 FIRST STREET, FORT WASHINGTON, PA 19034"
+      },
+      "date": "20071002",
+      "drug": {
+        "name": "OXISTAT",
+        "codeSystemName": "RxNorm",
+        "code": "00462035860",
+        "fillNumber": "0",
+        "daysSupply": "30"
+      },
+      "prescriber": {
+        "identifier": "1111111111",
+        "name": "Harvey, A. McGehee"
+      }
+    }
+  ]
+}
